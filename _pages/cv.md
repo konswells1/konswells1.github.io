@@ -11,54 +11,24 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Animal Ecology, Ulm University, Germany, 2006
+* M.Sc. in Animal Ecology and Tropical Biology, University of Würzburg, Germany, 2002
+* Australian National University, Australia, 1999-2000
+* University of Freiburg, Germany, 1996-1999
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* since 2018: Lecturer in Biodiversity and Disease Ecology
+  * Swansea University, UK
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2015-2017: Research Fellow
+  * Griffith University, Australia
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2013-2015: Research Fellow
+  * Adelaide University, Australia
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* 2010-2011: Postdoctoral Research Fellow
+  * Biodiversity and Climate Research Centre (BiK-F), Germany
+
+* 2006-2011: Scientific Mananger & Postdoctoral Research Fellow
+  * University of Ulm, Germany
