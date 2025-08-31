@@ -1,15 +1,31 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I am an ecologist and modeller with a commitment to understanding how environmental change shapes the structure, function, and health of ecological systems. My research spans temperate and tropical ecosystems, integrating extensive fieldwork with computational and disease ecology to explore how global change alters biodiversity, species interactions, and disease dynamics.
+
+At the core of my work is the ecological modelling of host–parasite interaction networks, species distributions, and community structure — aimed at revealing how biotic systems respond to climate change, habitat fragmentation, invasive species, and other anthropogenic pressures. I am particularly interested in how demographic and epidemiological dynamics, species range shifts, and biogeographic patterns can be used to identify critical processes for optimizing conservation, managing biological invasions, and preventing disease emergence.
+
+By combining trait-based, macroecological, and dynamic modelling approaches, my research bridges ecology, global change biology, and Planetary Health. Through hindcasting and forecasting human–animal–environment interactions, my group takes a systems-level perspective to uncover how past and present ecological dynamics inform biodiversity futures and public health risks. Our goal is to support adaptive, evidence-based policies tailored to real-world environmental change scenarios — contributing to both planetary health and ecological resilience.
+
+
+
+Key interests
+======
+
+* Wildlife ecology and management
+* Disease ecology
+* Eco-epidemiology
+* Ecohealth and One Health
+* Biodiversity
+* Conservation biology
+
 
 A data-driven personal website
 ======
