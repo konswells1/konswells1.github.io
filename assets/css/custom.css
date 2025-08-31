@@ -3,10 +3,13 @@
   background-color: #50C878 !important;
 }
 
-.site-nav {
+#site-nav {
   background-color: #50C878 !important;
 }
 
+#site-nav a {
+  color: #f0f0f0 !important;
+}
 
 /* Nav links: light text */
 .navbar .navbar-nav .nav-link {
@@ -14,12 +17,11 @@
   transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-/* Hover effect: modern lighter emerald background with dark text */
-.navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .nav-link:focus {
-  background-color: #66D18E !important;  /* Lighter emerald */
-  color: #1e1e1e !important;             /* Darker text for contrast */
-  border-radius: 4px;                    /* Slight rounding for a modern feel */
+#site-nav a:hover,
+#site-nav a:focus {
+  background-color: #66D18E !important;
+  color: #1e1e1e !important;
+  border-radius: 4px;
   padding-left: 8px;
   padding-right: 8px;
 }
