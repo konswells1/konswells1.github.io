@@ -1,13 +1,15 @@
-/* navbar background color */
-.navbar {
-  background-color: #50C878 !important;
+/* Navigation bar color */
+#site-nav, .navbar, .navbar .container, .navbar .container-fluid {
+  background-color: #20b2aa !important;
   border: none !important;
 }
 
-#site-nav {
-  background-color: #50C878 !important;
+/* Link color */
+#site-nav a {
+  color: #ffffff !important;
 }
 
-#site-nav a {
-  color: #f0f0f0 !important;
+#site-nav a:hover {
+  color: #fffbf0 !important;
+  text-decoration: underline;
 }
