@@ -95,3 +95,12 @@ html, body {
 #theme-toggle a:hover {
   color: #FFC107 !important;
 }
+
+/* Adjust size for publication titles */
+.publication-title {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-bottom: 1em;
+}
+
