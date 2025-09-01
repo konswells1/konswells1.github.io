@@ -1,28 +1,38 @@
-/* Full width background color for nav bar */
-.masthead,
-.masthead__inner-wrap,
-.masthead__menu,
-#site-nav {
-  background-color: #20b2aa !important;
+/* Remove body/header spacing */
+html, body, header {
   margin: 0;
   padding: 0;
-  width: 100%;
   border: none;
 }
 
-header {
+/* Color all header and navbar layers */
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+#site-nav,
+.greedy-nav {
   background-color: #20b2aa !important;
-  padding: 0 !important;
-  margin: 0 !important;
   border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  box-shadow: none !important;
 }
 
-/* Nav links color */
+/* Override default width restriction */
+.masthead__inner-wrap {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Color links */
 #site-nav a {
   color: #ffffff !important;
 }
 
-/* Nav hover color */
+/* Color hover */
 #site-nav a:hover {
   color: #fffbf0 !important;
   text-decoration: underline;
