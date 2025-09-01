@@ -10,7 +10,12 @@
   border: none;
 }
 
-
+header {
+  background-color: #20b2aa !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+}
 
 /* Nav links color */
 #site-nav a {
