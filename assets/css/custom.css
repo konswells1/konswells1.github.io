@@ -1,6 +1,7 @@
 /* navbar background color */
 .navbar {
   background-color: #50C878 !important;
+  border: none !important;
 }
 
 #site-nav {
