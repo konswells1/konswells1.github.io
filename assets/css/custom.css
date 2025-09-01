@@ -12,13 +12,6 @@
 
 
 
-/* force nav to full width */
-.greedy-nav {
-  width: 100%;
-  box-shadow: none !important;
-}
-
-
 /* Nav links color */
 #site-nav a {
   color: #ffffff !important;
