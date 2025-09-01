@@ -1,49 +1,50 @@
-/* fixed height for all containers*/
+/* Reset body and html */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* masthead section color */
 .masthead,
 .masthead__inner-wrap,
 .masthead__menu,
 #site-nav,
 .greedy-nav {
-  height: 70px; /* Set to consistent masthead height */
   background-color: #20b2aa !important;
   width: 100vw !important;
   max-width: none !important;
   margin: 0 !important;
   padding: 0 !important;
-  box-shadow: none !important;
   border: none !important;
+  box-shadow: none !important;
 }
 
-/* containers don't collapse height */
-.masthead,
-.masthead__inner-wrap,
-.masthead__menu {
+/* Nav container should align children and fill space */
+.greedy-nav {
   display: flex;
   align-items: center;
+  height: 70px; /* Set full height for navbar */
+  padding: 0 1rem;
 }
 
-/* prevent inner nav from shrinking */
-.greedy-nav {
-  flex: 1;
-}
-
-/* Nav links container */
+/* Make UL stretch full height and align items */
 .greedy-nav .visible-links {
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 0;
+  list-style: none;
   margin: 0;
+  padding: 0;
 }
 
-/* Each nav item */
+/* Each nav item fills height */
 .masthead__menu-item {
   display: flex;
   align-items: center;
   height: 100%;
 }
 
-/* Nav links */
+/* Each link stretches vertically */
 #site-nav a {
   color: #ffffff !important;
   display: flex;
@@ -53,13 +54,13 @@
   text-decoration: none;
 }
 
-/* hover effect */
+/* Link hover */
 #site-nav a:hover {
   color: #FFC107 !important;
   text-decoration: underline;
 }
 
-/* Theme toggle icon */
+/* Theme toggle icon inherits same styling */
 #theme-toggle a {
   display: flex;
   align-items: center;
@@ -68,7 +69,6 @@
   padding: 0 1rem;
 }
 
-/* Prevent page header from inheriting color */
-.page__title, h1, h2, h3 {
-  background-color: transparent !important;
+#theme-toggle a:hover {
+  color: #FFC107 !important;
 }
