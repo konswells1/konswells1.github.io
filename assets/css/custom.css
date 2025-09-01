@@ -4,7 +4,7 @@ html, body {
   padding: 0;
 }
 
-/* color .masthead> */
+/* color of masthead section> */
 .masthead,
 .masthead__inner-wrap,
 .masthead__menu,
@@ -23,7 +23,7 @@ html, body {
 .greedy-nav {
   display: flex;
   align-items: center;
-  min-height: 60px;
+  min-height: 70px;
   padding: 0 1rem;
 }
 
@@ -36,17 +36,35 @@ html, body {
   margin: 0;
 }
 
-/* Color nav links */
-#site-nav a {
-  color: #ffffff !important;
-  padding: 0.75rem 1rem;
-  display: block;
+/* nav item fills height */
+.masthead__menu-item {
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
-/* Color links hovered */
+/* color nav links */
+#site-nav a {
+  color: #ffffff !important;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+/* link hover */
 #site-nav a:hover {
   color: #fffbf0 !important;
   text-decoration: underline;
+}
+
+#theme-toggle a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #ffffff !important;
+  padding: 0 1rem;
 }
 
 /* prevent page content header being colored */
