@@ -1,10 +1,10 @@
-/* Reset body and html */
+/* Reset global spacing */
 html, body {
   margin: 0;
   padding: 0;
 }
 
-/* masthead section color */
+/* Masthead and nav bar background */
 .masthead,
 .masthead__inner-wrap,
 .masthead__menu,
@@ -19,56 +19,43 @@ html, body {
   box-shadow: none !important;
 }
 
-/* Nav container should align children and fill space */
+/* Force masthead height */
+.masthead {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+/* Inner wrap fills height */
+.masthead__inner-wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* Greedy nav takes up full space */
 .greedy-nav {
   display: flex;
   align-items: center;
-  height: 70px; /* Set full height for navbar */
+  height: 100%;
+  flex-grow: 1;
   padding: 0 1rem;
 }
 
-/* Make UL stretch full height and align items */
+/* Links list fills height */
 .greedy-nav .visible-links {
   display: flex;
   align-items: center;
   height: 100%;
   list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
-/* Each nav item fills height */
+/* Nav items fill height */
 .masthead__menu-item {
+  height: 100%;
   display: flex;
   align-items: center;
-  height: 100%;
-}
-
-/* Each link stretches vertically */
-#site-nav a {
-  color: #ffffff !important;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  padding: 0 1rem;
-  text-decoration: none;
-}
-
-/* Link hover */
-#site-nav a:hover {
-  color: #FFC107 !important;
-  text-decoration: underline;
-}
-
-/* Theme toggle icon inherits same styling */
-#theme-toggle a {
-  display: flex;
-  align-items: center;
-  height: 100%;
-  color: #ffffff !important;
-  padding: 0 1rem;
-}
-
-#theme-toggle a:hover {
-  color: #FFC107 !important;
 }
