@@ -1,15 +1,10 @@
-/* Reset margins/padding globally */
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
-/* color of masthead section> */
+/* fixed height for all containers*/
 .masthead,
 .masthead__inner-wrap,
 .masthead__menu,
 #site-nav,
 .greedy-nav {
+  height: 70px; /* Set to consistent masthead height */
   background-color: #20b2aa !important;
   width: 100vw !important;
   max-width: none !important;
@@ -19,15 +14,20 @@ html, body {
   border: none !important;
 }
 
-/* set height and center links vertically */
-.greedy-nav {
+/* containers don't collapse height */
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu {
   display: flex;
   align-items: center;
-  min-height: 70px;
-  padding: 0 1rem;
 }
 
-/* fill nav bar around links */
+/* prevent inner nav from shrinking */
+.greedy-nav {
+  flex: 1;
+}
+
+/* Nav links container */
 .greedy-nav .visible-links {
   display: flex;
   align-items: center;
@@ -36,14 +36,14 @@ html, body {
   margin: 0;
 }
 
-/* nav item fills height */
+/* Each nav item */
 .masthead__menu-item {
   display: flex;
   align-items: center;
   height: 100%;
 }
 
-/* color nav links */
+/* Nav links */
 #site-nav a {
   color: #ffffff !important;
   display: flex;
@@ -53,12 +53,13 @@ html, body {
   text-decoration: none;
 }
 
-/* link hover */
+/* hover effect */
 #site-nav a:hover {
-  color: #fffbf0 !important;
+  color: #FFC107 !important;
   text-decoration: underline;
 }
 
+/* Theme toggle icon */
 #theme-toggle a {
   display: flex;
   align-items: center;
@@ -67,7 +68,7 @@ html, body {
   padding: 0 1rem;
 }
 
-/* prevent page content header being colored */
+/* Prevent page header from inheriting color */
 .page__title, h1, h2, h3 {
   background-color: transparent !important;
 }
