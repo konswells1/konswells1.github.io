@@ -5,14 +5,16 @@ group: publications
 permalink: /publications/
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap"> You can also find our articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-
 <h1>Publications</h1>
 <div class="container-fluid">
 
+{% if site.author.googlescholar %}
+  <div class="mb-4 mt-2 wordwrap">
+    You can also find some of our articles on
+    <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+  </div>
+{% endif %}
+	
 {% assign sorted = site.publications | sort: "pub_date" | reverse %}
 {% for publication in sorted %}
 <hr>
