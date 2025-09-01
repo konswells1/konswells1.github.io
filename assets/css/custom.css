@@ -10,18 +10,3 @@
 #site-nav a {
   color: #f0f0f0 !important;
 }
-
-/* Nav links: light text */
-.navbar .navbar-nav .nav-link {
-  color: #f0f0f0 !important;             /* Light gray text */
-  transition: color 0.3s ease, background-color 0.3s ease;
-}
-
-#site-nav a:hover,
-#site-nav a:focus {
-  background-color: #66D18E !important;
-  color: #1e1e1e !important;
-  border-radius: 4px;
-  padding-left: 8px;
-  padding-right: 8px;
-}
