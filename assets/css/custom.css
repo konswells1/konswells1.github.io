@@ -1,38 +1,42 @@
-/* Remove body/header spacing */
-html, body, header {
+html, body {
   margin: 0;
   padding: 0;
-  border: none;
 }
 
-/* Color all header and navbar layers */
+/* If your masthead is wrapped in <header> */
+header {
+  background-color: #20b2aa !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100vw !important;
+  left: 0;
+}
+
+/* Make masthead and all its layers full width */
 .masthead,
 .masthead__inner-wrap,
 .masthead__menu,
 #site-nav,
 .greedy-nav {
   background-color: #20b2aa !important;
-  border: none !important;
   margin: 0 !important;
   padding: 0 !important;
-  width: 100% !important;
+  width: 100vw !important;
+  max-width: none !important;
   box-shadow: none !important;
 }
 
-/* Override default width restriction */
-.masthead__inner-wrap {
-  max-width: 100% !important;
-  width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
+/* For vertical space */
+.masthead {
+  display: flex;
+  align-items: center;
+  min-height: 70px; /* syncs with $masthead-height */
 }
 
-/* Color links */
+/* Nav links */
 #site-nav a {
   color: #ffffff !important;
 }
-
-/* Color hover */
 #site-nav a:hover {
   color: #fffbf0 !important;
   text-decoration: underline;
