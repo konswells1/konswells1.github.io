@@ -1,14 +1,28 @@
-/* Navigation bar color */
-#site-nav, .navbar, .navbar .container, .navbar .container-fluid {
+/* Full width background color for nav bar */
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+#site-nav {
   background-color: #20b2aa !important;
-  border: none !important;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border: none;
 }
 
-/* Link color */
+/* force nav to full width */
+.greedy-nav {
+  width: 100%;
+  box-shadow: none !important;
+}
+
+
+/* Nav links color */
 #site-nav a {
   color: #ffffff !important;
 }
 
+/* Nav hover color */
 #site-nav a:hover {
   color: #fffbf0 !important;
   text-decoration: underline;
