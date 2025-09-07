@@ -28,6 +28,8 @@ permalink: https://yourusername.github.io/publication/2025_Giacomini_MolEcol
 # Short plain-text summary of the publication.
 excerpt: "As urbanisation expands into Earth’s oldest and most biodiverse rainforests, this study investigates how invasive and native small mammals in Borneo—such as Rattus rattus and Sundamys muelleri—are sharing gut microbiomes across an urban‑rural gradient. The findings reveal that the gut microbial communities of an invasive species (black rat) more closely resemble those of an urban-adapted native species than a closely related invader, offering insights into how urbanisation shapes host–microbiome dynamics with implications for wildlife health and disease transmission."
 
+---
+
 
 
 
