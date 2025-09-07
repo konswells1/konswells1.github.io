@@ -20,8 +20,8 @@ permalink: /publications/
 <hr>
 <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.pmid}}">
 	<div>
-		<h3>{{ publication.title | markdownify  | remove: '<p>' | remove: '</p>'}}</h3>
-		<h6>{{ publication.authors | markdownify | remove: '<p>' | remove: '</p>' }}</h6>
+		<h2>{{ publication.title | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
+		<p class="pub-authors">{{ publication.authors | markdownify | remove: '<p>' | remove: '</p>' }}</p>
 		{% if publication.journal %}
 			<i>{{ publication.journal }},</i>
 			{{publication.pub_date | split: "-" | first }}
