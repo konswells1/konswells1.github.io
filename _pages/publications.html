@@ -51,12 +51,17 @@ permalink: /publications/
   <div class="col-md-7 col-12">
     <h6>Access the paper</h6>
     <ul class="list-unstyled small">
-      {% if publication.pmid %}
-        <li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" target="_blank">{{publication.pmid}}</a></li>
-      {% endif %}
+
+	 {% if publication.doi %}
+  		<li> <a href="https://doi.org/{{ publication.doi | strip }}" target="_blank"> Read on Publisher’s Site</a></li>
+     {% endif %}
 		
       {% if publication.pdf %}
-        <li><a href="{{publication.pdf}}" target="_blank">Full Text (PDF)</a></li>
+        <li><a href="{{publication.pdf}}" target="_blank"> Full Text (PDF)</a></li>
+      {% endif %}
+
+	  {% if publication.pmid %}
+        <li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" target="_blank">{{publication.pmid}}</a></li>
       {% endif %}
 		
 	  {% if publication.pmcid %}
