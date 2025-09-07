@@ -49,11 +49,11 @@ permalink: /publications/
 
   <!-- Text & links column -->
   <div class="col-md-7 col-12">
-    <h6>Access the paper</h6>
+    <h6>Publication & Related Resources</h6>
     <ul class="list-unstyled small">
 
 	 {% if publication.doi %}
-  		<li> <a href="https://doi.org/{{ publication.doi | strip }}" target="_blank"> Read on Publisher’s Site</a></li>
+  		<li> <a href="https://doi.org/{{ publication.doi | strip }}" target="_blank"> Published Article</a></li>
      {% endif %}
 		
       {% if publication.pdf %}
@@ -64,10 +64,6 @@ permalink: /publications/
         <li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" target="_blank">{{publication.pmid}}</a></li>
       {% endif %}
 		
-	  {% if publication.pmcid %}
-		<li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" title = "PubMed Central: {{publication.pmcid}} (opens in new tab)" target="_blank"> {{publication.pmcid}}</a></li>
-	  {% endif %}
-
 	  {% if publication.biorxiv %}
 		<li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{{publication.biorxiv}}" title =  "BioRxiv Preprint: {{publication.biorxiv}} (opens in new tab)" target="_blank"> {{publication.biorxiv | split: "." | last }}</a></li>
 	  {% endif %}
