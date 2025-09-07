@@ -87,55 +87,92 @@ permalink: /publications/
   		</ul>
 	{% endif %}
 
-	{% comment %} Code & Software {% endcomment %}			
-	{% if publication.github %}
-	  <h6>Code & Software</h6>
+	{% comment %} Data, Code & Software {% endcomment %}
+	{% if publication.github or publication.data or publication.zenodo or publication.dryad or publication.figshare or publication.osf %}
+	  <h6>Data, Code & Software</h6>
 	  <ul class="list-unstyled small">
-      {% for repo in publication.github %}
-  	    <li><a href="https://github.com/{{repo.url}}" target="_blank" title="GitHub Repository">{{repo.url}}</a>{% if repo.description %} ({{repo.description}}){% endif %}</li>
- 	   {% endfor %}
- 	   </ul>
-	{% endif %}		
+	
+	    {% if publication.github %}
+	      <li>Code Repository{% if publication.github.size > 1 %} Repositories{% endif %}:
+	        <ul>
+	          {% for repo in publication.github %}
+	            <li>
+	              <a href="https://github.com/{{repo.url}}" target="_blank">{{repo.url}}</a>
+	              {% if repo.description %} ({{repo.description}}){% endif %}
+	            </li>
+	          {% endfor %}
+	        </ul>
+	      </li>
+	    {% endif %}
 
-	{% comment %} Datasets {% endcomment %}			
-	{% if publication.data or publication.zenodo or publication.dryad %}
-	  <h6>Datasets</h6>
-	  <ul class="list-unstyled small">
 	    {% if publication.data %}
 	      <li>Online Dataset{% if publication.data.size > 1 %}s{% endif %}:
-        {% if publication.data.size > 1 %}
-          <ul>
-            {% for dataset in publication.data %}
-    	          <li><a href="http://dx.doi.org/{{dataset}}" target="_blank">doi: {{dataset}}</a></li>
-            {% endfor %}
-        	  </ul>
-        	{% else %}
-        	  <a href="http://dx.doi.org/{{publication.data}}" target="_blank">doi: {{publication.data}}</a>
-        	{% endif %}
- 	     </li>
- 	   {% endif %}
-		{% if publication.zenodo %}
-		      <li>Zenodo Record{% if publication.zenodo.size > 1 %}s{% endif %}:
-	         {% for record in publication.zenodo %}
-    		      <a href="https://www.zenodo.org/record/{{record.code}}/" target="_blank">{{record.code}}</a>{% if record.description %} ({{record.description}}){% endif %}{% unless forloop.last %}, {% endunless %}
-    	     {% endfor %}
-   	   		  </li>
-   	 	  {% endif %}
-   		 {% if publication.dryad %}
-      		<li>Dryad Dataset{% if publication.dryad.size > 1 %}s{% endif %}:
-      	 {% if publication.dryad.size > 1 %}
-            <ul>
-            {% for dryad_doi in publication.dryad %}
-              <li><a href="https://doi.org/{{dryad_doi}}" target="_blank">doi: {{dryad_doi}}</a></li>
-            {% endfor %}
-          </ul>
-          {% else %}
-          		<a href="https://doi.org/{{publication.dryad}}" target="_blank">doi: {{publication.dryad}}</a>
-        {% endif %}
-  	    </li>
+	        {% if publication.data.size > 1 %}
+       	   <ul>
+      	      {% for dataset in publication.data %}
+      	        <li><a href="http://dx.doi.org/{{dataset}}" target="_blank">doi: {{dataset}}</a></li>
+      	      {% endfor %}
+      	    </ul>
+      	  {% else %}
+      	    <a href="http://dx.doi.org/{{publication.data}}" target="_blank">doi: {{publication.data}}</a>
+      	  {% endif %}
+      	</li>
+    	{% endif %}
+
+    	{% if publication.zenodo %}
+    	  <li>Zenodo Record{% if publication.zenodo.size > 1 %}s{% endif %}:
+    	    {% for record in publication.zenodo %}
+    	      <a href="https://www.zenodo.org/record/{{record.code}}/" target="_blank">{{record.code}}</a>
+    	      {% if record.description %} ({{record.description}}){% endif %}{% unless forloop.last %}, {% endunless %}
+    	    {% endfor %}
+    	  </li>
+    	{% endif %}
+
+   	{% if publication.dryad %}
+   	   <li>Dryad Dataset{% if publication.dryad.size > 1 %}s{% endif %}:
+   	     {% if publication.dryad.size > 1 %}
+   	       <ul>
+   	         {% for dryad_doi in publication.dryad %}
+   	           <li><a href="https://doi.org/{{dryad_doi}}" target="_blank">doi: {{dryad_doi}}</a></li>
+   	         {% endfor %}
+   	       </ul>
+   	     {% else %}
+   	       <a href="https://doi.org/{{publication.dryad}}" target="_blank">doi: {{publication.dryad}}</a>
+   	     {% endif %}
+   	   </li>
+   	 {% endif %}
+
+   	{% if publication.figshare %}
+   	   <li>Figshare Record{% if publication.figshare.size > 1 %}s{% endif %}:
+   	     {% if publication.figshare.size > 1 %}
+   	       <ul>
+   	         {% for fig in publication.figshare %}
+   	           <li><a href="https://doi.org/{{fig}}" target="_blank">doi: {{fig}}</a></li>
+   	         {% endfor %}
+   	       </ul>
+   	     {% else %}
+   	       <a href="https://doi.org/{{publication.figshare}}" target="_blank">doi: {{publication.figshare}}</a>
+   	     {% endif %}
+   	   </li>
+   	 {% endif %}
+	
+	  {% if publication.osf %}
+	      <li>OSF Record{% if publication.osf.size > 1 %}s{% endif %}:
+	        {% if publication.osf.size > 1 %}
+	          <ul>
+	            {% for osf_doi in publication.osf %}
+	              <li><a href="https://doi.org/{{osf_doi}}" target="_blank">doi: {{osf_doi}}</a></li>
+	            {% endfor %}
+	          </ul>
+	        {% else %}
+	          <a href="https://doi.org/{{publication.osf}}" target="_blank">doi: {{publication.osf}}</a>
+	        {% endif %}
+	      </li>
 	    {% endif %}
-  		</ul>
-	{% endif %}
+	
+	  </ul>
+	{% endif %}		
+	
 
 	{% comment %} Materials & Protocols {% endcomment %}
 	{% if publication.pdbs or publication.emdbs or publication.paired_maps_and_models or publication.paired_maps_and_models_and_data %}
