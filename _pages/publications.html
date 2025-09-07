@@ -76,13 +76,6 @@ permalink: /publications/
 		<li>arXiv Preprint: <a href="https://arxiv.org/abs/{{publication.arxiv}}" title = "aRxiv Preprint: {{publication.arxiv}} (opens in new tab)" target="_blank"> {{publication.arxiv}}</a></li>
 	  {% endif %}
 
-	  <!-- PDF -->
-	  {% if publication.journal %}
-		{% if publication.pdf %}
-	       <li><a href="{{publication.pdf}}" title = "PDF for {{publication.title}} (opens in new tab)" target="_blank"> Full Text</a></li>
-		{% endif %}
-	  {% endif %}
-
 	  {% if publication.osf %}
 		<li>OSF Preprint: <a href="https://osf.io/{{publication.osf}}" title = "OSF Preprint: {{publication.osf}} (opens in new tab)" target="_blank"> {{publication.osf}}</a></li>
 	  {% endif %}
