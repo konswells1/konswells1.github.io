@@ -10,7 +10,7 @@ permalink: /publications/
 
 {% if site.author.googlescholar %}
   <div class="mb-4 mt-2 wordwrap">
-    You can also find some of our articles on
+    An overview of our articles can be also found on
     <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
   </div>
 {% endif %}
@@ -20,7 +20,7 @@ permalink: /publications/
 <hr>
 <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.pmid}}">
 	<div>
-		<h5>{{ publication.title | markdownify  | remove: '<p>' | remove: '</p>'}}</h5>
+		<h3>{{ publication.title | markdownify  | remove: '<p>' | remove: '</p>'}}</h3>
 		<h6>{{ publication.authors | markdownify | remove: '<p>' | remove: '</p>' }}</h6>
 		{% if publication.journal %}
 			<i>{{ publication.journal }},</i>
