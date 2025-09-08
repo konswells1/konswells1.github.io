@@ -20,7 +20,7 @@ pdf: https://royalsocietypublishing.org/doi/epdf/10.1098/rsos.231589
 image: https://royalsocietypublishing.org/cms/asset/6b7d0cdd-ea77-415c-84df-22e7188d2532/rsos.231589.f002.jpg
 
 #DataSets
-zenodo: 10.5281/zenodo.13164755
+figshare: 10.6084/m9.figshare.c.7425681
 
 #Link in repository based on file name
 permalink: https://yourusername.github.io/publication/2024_Powell-Romero_RSocOpenSci  
@@ -29,6 +29,7 @@ permalink: https://yourusername.github.io/publication/2024_Powell-Romero_RSocOpe
 excerpt: "The study presents a systematic review and practical guide for applying multi-response statistical models in co‑infection research. It synthesizes existing approaches and offers recommendations to improve study design, model implementation, and interpretation in contexts where hosts are infected by multiple pathogens simultaneously."
 
 ---
+
 
 
 
