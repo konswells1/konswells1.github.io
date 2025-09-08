@@ -4,7 +4,7 @@ pronouns: he/him
 position: Principal Investigator
 startdate: [2018-10-01]
 enddate: []
-email: k.l.wells@swansea.ac.uk
+email: k.l.wells [at] swansea [dot] ac.uk
 image: /images/members/profile_konswells_2024_3.png
 altimage: /images/members/profile_konswells.png
 website:
@@ -16,6 +16,7 @@ description: "Konstans is a ecologist and modeller, focusing on the consequences
 ---
 
  
+
 
 
 
