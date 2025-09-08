@@ -109,6 +109,14 @@ html, body {
   margin-bottom: 1em;
 }
 
+/* Member image size */
+.member-photo {
+  width: 365px;
+  height: 365px;
+  object-fit: cover; /* Ensures image fills the area without distortion */
+  border-radius: 5px; /* Optional: rounded corners */
+}
+
 /* Logo size */
 .mem-icon {
   width: 24px;
