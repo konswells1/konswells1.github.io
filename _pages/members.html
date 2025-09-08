@@ -1,0 +1,37 @@
+---
+title: Members
+layout: default
+---
+
+<h1>Members</h1>
+<p>Our group welcomes people from all backgrounds who are driven by curiosity, enthusiasm for science, and a commitment to sustainability. We value diversity, collaboration, and scientific rigour, and strive to create a supportive environment where all members can grow, contribute, and thrive.</p>
+
+<h2>Current Members</h2>
+{% assign current_members = site.members | where_exp:"member", "member.enddate == nil or member.enddate == ''" | sort: "startdate" %}
+
+{% for member in current_members %}
+  <div class="member">
+    <img src="{{ member.image }}" alt="{{ member.name }}" style="max-width:200px;">
+    <h3>{{ member.name }}</h3>
+    <p><em>{{ member.position }}</em></p>
+    <p>{{ member.email }}</p>
+    {% if member.website %}
+      <p><a href="{{ member.website }}" target="_blank">Website</a></p>
+    {% endif %}
+    <div>{{ member.content | markdownify }}</div>
+  </div>
+  <hr>
+{% endfor %}
+
+<h2>Alumni</h2>
+{% assign alumni = site.members | where_exp:"member", "member.enddate != nil and member.enddate != ''" | sort: "enddate" | reverse %}
+
+{% for member in alumni %}
+  <div class="member alumni">
+    <img src="{{ member.image }}" alt="{{ member.name }}" style="max-width:200px;">
+    <h3>{{ member.name }}</h3>
+    <p><em>{{ member.position }}</em> (Until {{ member.enddate | date: "%Y-%m" }})</p>
+    <div>{{ member.content | markdownify }}</div>
+  </div>
+  <hr>
+{% endfor %}
