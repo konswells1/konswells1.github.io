@@ -4,28 +4,20 @@ layout: default
 permalink: /members/
 ---
 
-<h1>Current Members</h1>
+<h2>Testing Members Page</h2>
 
 <ul>
-  {% assign current_members = site.members | where_exp: "member", "member.enddate == nil or member.enddate == ''" | sort: "startdate" %}
-  {% for member in current_members %}
+  {% for member in site.members %}
     <li>
-      <strong>{{ member.name }}</strong> – {{ member.position }}
-      {% if member.startdate %}
-        (Since {{ member.startdate | date: "%Y-%m" }})
+      <strong>{{ member.name }}</strong><br>
+      {% if member.position %}
+        Position: {{ member.position }}<br>
+      {% else %}
+        <span style="color:red;">⚠️ Missing position</span><br>
       {% endif %}
-    </li>
-  {% endfor %}
-</ul>
 
-<h1>Alumni</h1>
-
-<ul>
-  {% assign alumni = site.members | where_exp: "member", "member.enddate != nil and member.enddate != ''" | sort: "enddate" | reverse %}
-  {% for member in alumni %}
-    <li>
-      <strong>{{ member.name }}</strong> – {{ member.position }}
-      (Until {{ member.enddate | date: "%Y-%m" }})
-    </li>
-  {% endfor %}
-</ul>
+      {% if member.startdate %}
+        Start: {{ member.startdate }}<br>
+      {% else %}
+        <span style="color:red;">⚠️ Missing startdate</span><br>
+      {% endif %}
