@@ -21,3 +21,12 @@ permalink: /members/
       {% else %}
         <span style="color:red;">⚠️ Missing startdate</span><br>
       {% endif %}
+
+      {% if member.enddate %}
+        End: {{ member.enddate }}
+      {% endif %}
+
+      <br><br>
+    </li>
+  {% endfor %}
+</ul>
