@@ -96,11 +96,11 @@ permalink: /publications/
 		  <li>
 		    GitHub Repositor{% if publication.github.size > 1 %}ies{% else %}y{% endif %}:
 		    {% if publication.github.size > 1 %}
-  		    {% for repo in publication.github %}
- 		       <a href="https://github.com/{{repo.url}}" target="_blank">{{repo.url}}</a>{% if repo.description %} ({{repo.description}}){% endif %}{% unless forloop.last %}, {% endunless %}
+		      {% for repo in publication.github %}
+		        <a href="https://github.com/{{repo}}" target="_blank">{{repo}}</a>{% unless forloop.last %}, {% endunless %}
 		      {% endfor %}
- 		   {% else %}
- 		     <a href="https://github.com/{{publication.github.url}}" target="_blank">{{publication.github.url}}</a>{% if publication.github.description %} ({{publication.github.description}}){% endif %}
+		    {% else %}
+		      <a href="https://github.com/{{publication.github}}" target="_blank">{{publication.github}}</a>
 		    {% endif %}
 		  </li>
 		{% endif %}
