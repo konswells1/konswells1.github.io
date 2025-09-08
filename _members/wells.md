@@ -5,7 +5,8 @@ position: Principal Investigator
 startdate: [2018-10-01]
 enddate: []
 email: k.l.wells@swansea.ac.uk
-image: /images/profile_konswells_2024_3.png
+image: /images/members/profile_konswells_2024_3.png
+altimage: /images/members/profile_konswells.png
 website:
 orcid: 0000-0003-0377-2463
 linkedin: konstans-wells-4b3766135
@@ -15,6 +16,7 @@ description: "Konstans is a ecologist and modeller, focusing on the consequences
 ---
 
  
+
 
 
 
