@@ -7,7 +7,7 @@ pub_date: 2025-06-01
 
 date: 2025-01-01 1 # Used for sorting 
 
-authors: "**Lucie Thompson**, Nuria Galiana, **Konstans Wells**, Miguel Lurgi"
+authors: "**Konstans Wells**, Jeffrey A Bell, Alan Fecchio, Serguei Drovetski, Spencer Galen, Shannon Hackett, Holly Lutz, Heather R Skeen, Gary Voelker, Wanyoike Wamiti, Jason D Weckstein, Nicholas J Clark"
 
 journal: "Journal of Biogeography"
 
@@ -30,6 +30,7 @@ permalink: https://yourusername.github.io/publication/2025_Wells_JBiogeogr
 excerpt: "This study examines how niche breadth, host availability, and climatic conditions shape abundance–occupancy relationships of avian blood parasites (Plasmodium, Parahaemoproteus, and Leucocytozoon) across diverse biogeographic regions. The study found strong evidence that bird diversity influences parasite infection risk, but also showed that the different parasite genera responded in distinct ways to climate and host availability. This highlights the complexity of parasite–host dynamics and suggests that a single rule is unlikely to explain the global distribution of avian blood parasites."
 
 ---
+
 
 
 
