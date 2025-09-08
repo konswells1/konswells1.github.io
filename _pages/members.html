@@ -86,11 +86,11 @@ Our group welcomes people from all backgrounds who are driven by curiosity, enth
                   <a style="overflow-wrap: break-word;" href= "{{member.website}}">{{member.website}}</a> <br>
                 {% endif %}
                 {% if member.orcid %}
-                  <a href="http://orcid.org"><img class="inline-block mem-icon" src="/images/ORCID_iD.png"></a>
+                  <a href="http://orcid.org"><img class="inline-block mem-icon" src="/images/logo/ORCID_logo.png"></a>
                   <a href="http://orcid.org/{{member.orcid}}"> {{member.orcid}}</a> <br>
                 {% endif %}
                 {% if member.linkedin %}
-                  <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/images/ORCID_iD.png"></a>
+                  <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/images/logo/LinkedIn_logo.png"></a>
                   <a href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a> <br>
                 {% endif %}
                 {% if member.scholar %}
@@ -113,6 +113,7 @@ Our group welcomes people from all backgrounds who are driven by curiosity, enth
 {% endfor %}
 <hr>
 
+{% include alumni_sidebar.html %}
 
 {</svg>
 </div>
