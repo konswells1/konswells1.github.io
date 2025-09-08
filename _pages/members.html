@@ -61,6 +61,8 @@ Our group welcomes people from all backgrounds who are driven by curiosity, enth
         </div>
 {% endfor %}
 <hr>
+
+<!-- .....Affiliate Members..... -->
 <h4>Affiliates</h4>
 {% for member in site.members %}
 
@@ -113,8 +115,69 @@ Our group welcomes people from all backgrounds who are driven by curiosity, enth
 {% endfor %}
 <hr>
 
-<!-- Alumni section BELOW everything -->
-<h2>Alumni</h2>
-{% include sidebar_alumni.html %}
+<!-- .....Alumni Members..... -->
+<h4>Alumni</h4>
+
+{% assign alumni = site.members | sort: "enddate" | reverse %}
+{% for member in alumni %}
+
+  {% if member.enddate == empty or member.startdate.size != member.enddate.size %}
+    {% continue %}
+  {% endif %}
+
+  {% assign position = member.position | downcase %}
+  {% if position contains "affiliate" or position contains "visiting" or position contains "intern" or position contains "high school" %}
+    {% continue %}
+  {% endif %}
+
+  <hr>
+  <div id="{{ member.name }}" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-4">
+      <img class="img-fluid" src="{{ member.image }}"
+        {% if member.altimage %}
+          onmouseover="this.src='{{ member.altimage }}';"
+          onmouseout="this.src='{{ member.image }}';"
+        {% endif %}
+        alt="{{ member.name }}" width="365" height="365"><br>
+
+      <strong>{{ member.name }}</strong><br>
+
+      {% if member.pronouns %}
+        <em>{{ member.pronouns }}</em><br>
+      {% endif %}
+      {{ member.position | markdownify | remove: '<p>' | remove: '</p>' }}<br>
+      <em>{{ member.email }}</em><br>
+      {% if member.website %}
+        <a style="overflow-wrap: break-word;" href="{{ member.website }}">{{ member.website }}</a><br>
+      {% endif %}
+      {% if member.orcid %}
+        <a href="http://orcid.org"><img class="inline-block mem-icon" src="/images/logo/ORCID_iD.png"></a>
+        <a href="http://orcid.org/{{ member.orcid }}"> {{ member.orcid }}</a><br>
+      {% endif %}
+      {% if member.linkedin %}
+        <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/images/logo/LinkedIn_logo.png"></a>
+        <a href="http://www.linkedin.com/in/{{ member.linkedin }}"> {{ member.linkedin }} </a><br>
+      {% endif %}
+      {% if member.scholar %}
+        <a href="http://scholar.google.com"><img class="inline-block mem-icon" src="/images/logo/GoogleScholar_logo.png"></a>
+        <a href="http://scholar.google.com/citations?user={{ member.scholar }}"> GoogleScholar Citations </a><br>
+      {% endif %}
+      {% if member.bsky %}
+        <a href="https://bsky.app/"><img class="inline-block mem-icon" src="/images/logo/Bluesky_logo.png"></a>
+        <a href="https://bsky.app/profile/{{ member.bsky }}"> {{ member.bsky }} </a><br>
+      {% endif %}
+      {% if member.github %}
+        <a href="http://github.com"><img class="inline-block mem-icon" src="/images/logo/github_logo.png"></a>
+        <a href="http://github.com/{{ member.github }}"> {{ member.github }} </a><br>
+      {% endif %}
+    </div>
+
+    <div class="col-sm-8">
+      {{ member.description | markdownify }}
+    </div>
+  </div>
+
+{% endfor %}
+<hr>
 
 </div>
