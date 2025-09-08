@@ -6,55 +6,7 @@ permalink: /members/
 ---
 
 <h1>Members</h1>
-<p>Our group welcomes people from all backgrounds who are driven by curiosity, enthusiasm for science, and a commitment to sustainability. We value diversity, collaboration, and scientific rigour, and strive to create a supportive environment where all members can grow, contribute, and thrive.</p>
+<p>Welcome to our group!</p>
 
 <h2>Current Members</h2>
-{% assign current_members = site.members | where_exp:"member", "member.enddate == nil or member.enddate == ''" | sort: "startdate" %}
-
-{% for member in current_members %}
-  <div class="member">
-    <img src="{{ member.image }}" alt="{{ member.name }}" style="max-width:200px;">
-    <h3>{{ member.name }}</h3>
-    {% if member.pronouns %}
-    	<em>{{member.pronouns}}</em> <br>
-    {% endif %}
-    <p><em>{{ member.position }}</em></p>
-    <p>{{ member.email }}</p>
-    {% if member.website %}
-      <p><a href="{{ member.website }}" target="_blank">Website</a></p>
-    {% endif %}
-    {% if member.orcid %}
-    	<a href="http://orcid.org"><img class="inline-block mem-icon" src="/images/ORCID_iD.png"></a>
-        <a href="http://orcid.org/{{member.orcid}}"> {{member.orcid}}</a> <br>
-    {% endif %}
-    {% if member.linkedin %}
-    	<a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/images/LinkedIn_icon.png"></a>
-        	 <a href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a> <br>
-    {% endif %}
-    {% if member.scholar %}
-    	<a href="http://scholar.google.com">
-    	<img class="inline-block mem-icon" src="/images/Google_Scholar_logo.png" alt="Google Scholar"></a>
-  	<a href="http://scholar.google.com/citations?user={{ member.scholar }}">Google Scholar</a><br>
-    {% endif %}
-    {% if member.github %}
-    	<a href="http://github.com"><img class="inline-block mem-icon" src="/images/github_logo.png"></a>
-   	<a href= "http://github.com/{{member.github}}"> {{member.github}} </a> <br>
-     {% endif %}
-
-    <div>{{ member.content | markdownify }}</div>
-  </div>
-  <hr>
-{% endfor %}
-
-<h2>Alumni</h2>
-{% assign alumni = site.members | where_exp:"member", "member.enddate != nil and member.enddate != ''" | sort: "enddate" | reverse %}
-
-{% for member in alumni %}
-  <div class="member alumni">
-    <img src="{{ member.image }}" alt="{{ member.name }}" style="max-width:200px;">
-    <h3>{{ member.name }}</h3>
-    <p><em>{{ member.position }}</em> (Until {{ member.enddate | date: "%Y-%m" }})</p>
-    <div>{{ member.content | markdownify }}</div>
-  </div>
-  <hr>
-{% endfor %}
+{% assign current_members = site.members | where_exp: "member", "member.enddate == nil or member.enddate == ''" | sort: "startdate"
