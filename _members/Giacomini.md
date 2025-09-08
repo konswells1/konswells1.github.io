@@ -5,7 +5,7 @@ position: PhD student
 startdate: [2022-10-01]
 enddate: []
 email: 2156511@swansea.ac.uk
-image: /images/members/profile_Giacomini_Alessandra
+image: /images/members/profile_Giacomini_Alessandra.png
 website:
 orcid: 0000-0001-9121-1660
 linkedin: 
