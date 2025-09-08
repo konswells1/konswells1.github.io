@@ -109,4 +109,11 @@ html, body {
   margin-bottom: 1em;
 }
 
-
+/* Logo size */
+.mem-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-right: 5px;
+  vertical-align: middle;
+}
