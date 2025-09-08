@@ -1,32 +1,70 @@
 ---
 title: Members
 layout: default
+group: members
 permalink: /members/
 ---
 
-<h2>Testing Members Page</h2>
+<h1>Members</h1>
+<p>Our group welcomes people from all backgrounds who are driven by curiosity, enthusiasm for science, and a commitment to sustainability. We value diversity, collaboration, and scientific rigour, and strive to create a supportive environment where all members can grow, contribute, and thrive.</p>
 
-<ul>
-  {% for member in site.members %}
-    <li>
-      <strong>{{ member.name }}</strong><br>
-      {% if member.position %}
-        Position: {{ member.position }}<br>
-      {% else %}
-        <span style="color:red;">⚠️ Missing position</span><br>
-      {% endif %}
+<h2>Current Members</h2>
+{% assign current_members = site.members | where_exp:"member", "member.enddate == nil or member.enddate == ''" | sort: "startdate" %}
 
-      {% if member.startdate %}
-        Start: {{ member.startdate }}<br>
-      {% else %}
-        <span style="color:red;">⚠️ Missing startdate</span><br>
-      {% endif %}
+{% for member in current_members %}
+  <div class="member">
+    <h3>{{ member.name }}</h3>
+    {% if member.pronouns %}
+      <em>{{ member.pronouns }}</em><br>
+    {% endif %}
+    <p><em>{{ member.position }}</em></p>
 
-      {% if member.enddate %}
-        End: {{ member.enddate }}
-      {% endif %}
+    {% if member.email %}
+      <p>Email: {{ member.email }}</p>
+    {% endif %}
 
-      <br><br>
-    </li>
-  {% endfor %}
-</ul>
+    {% if member.website %}
+      <p><a href="{{ member.website }}" target="_blank">Website</a></p>
+    {% endif %}
+
+    {% if member.orcid %}
+      <p>
+        ORCID: <a href="https://orcid.org/{{ member.orcid }}">{{ member.orcid }}</a>
+      </p>
+    {% endif %}
+
+    {% if member.linkedin %}
+      <p>
+        LinkedIn: <a href="https://linkedin.com/in/{{ member.linkedin }}">{{ member.linkedin }}</a>
+      </p>
+    {% endif %}
+
+    {% if member.scholar %}
+      <p>
+        Google Scholar: 
+        <a href="https://scholar.google.com/citations?user={{ member.scholar }}">Profile</a>
+      </p>
+    {% endif %}
+
+    {% if member.github %}
+      <p>
+        GitHub: <a href="https://github.com/{{ member.github }}">{{ member.github }}</a>
+      </p>
+    {% endif %}
+
+    <div>{{ member.content | markdownify }}</div>
+  </div>
+  <hr>
+{% endfor %}
+
+<h2>Alumni</h2>
+{% assign alumni = site.members | where_exp:"member", "member.enddate != nil and member.enddate != ''" | sort: "enddate" | reverse %}
+
+{% for member in alumni %}
+  <div class="member alumni">
+    <h3>{{ member.name }}</h3>
+    <p><em>{{ member.position }}</em> (Until {{ member.enddate | date: "%Y-%m" }})</p>
+    <div>{{ member.content | markdownify }}</div>
+  </div>
+  <hr>
+{% endfor %}
