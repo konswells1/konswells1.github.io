@@ -111,16 +111,16 @@ html, body {
 
 /* Member image size */
 .member-photo {
-  width: 275x;
-  height: 275px;
+  width: 175x;
+  height: 175px;
   object-fit: cover; /* Ensures image fills the area without distortion */
   border-radius: 5px; /* Optional: rounded corners */
 }
 
 /* Logo size */
 .mem-icon {
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
   object-fit: contain;
   margin-right: 5px;
   vertical-align: middle;
