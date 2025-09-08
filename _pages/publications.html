@@ -92,18 +92,18 @@ permalink: /publications/
 	  <h6>Data, Code & Software</h6>
 	  <ul class="list-unstyled small">
 	
-	    {% if publication.github %}
-	      <li>Github Repository{% if publication.github.size > 1 %} Repositories{% endif %}:
-	        <ul>
-	          {% for repo in publication.github %}
-	            <li>
-	              <a href="https://github.com/{{repo.url}}" target="_blank">{{repo.url}}</a>
-	              {% if repo.description %} ({{repo.description}}){% endif %}
-	            </li>
-	          {% endfor %}
-	        </ul>
-	      </li>
-	    {% endif %}
+		{% if publication.github %}
+		  <li>
+		    GitHub Repositor{% if publication.github.size > 1 %}ies{% else %}y{% endif %}:
+		    {% if publication.github.size > 1 %}
+  		    {% for repo in publication.github %}
+ 		       <a href="https://github.com/{{repo.url}}" target="_blank">{{repo.url}}</a>{% if repo.description %} ({{repo.description}}){% endif %}{% unless forloop.last %}, {% endunless %}
+		      {% endfor %}
+ 		   {% else %}
+ 		     <a href="https://github.com/{{publication.github.url}}" target="_blank">{{publication.github.url}}</a>{% if publication.github.description %} ({{publication.github.description}}){% endif %}
+		    {% endif %}
+		  </li>
+		{% endif %}
 
 	    {% if publication.data %}
 	      <li>Online Dataset{% if publication.data.size > 1 %}s{% endif %}:
