@@ -41,16 +41,31 @@ permalink: /publications/
 	</div>
 </div>
 
-<div class="row align-items-start mb-4">
-  <!-- Image column -->
+{% comment %} Two-column layout: image (left), excerpt (right) {% endcomment %}
+<div class="row align-items-start mb-3">
+  {% comment %} Left: Image {% endcomment %}
   <div class="col-md-5 col-12 mb-3 mb-md-0">
-    <img class="img-fluid" src="{{publication.image}}" alt="Key Figure" style="max-height: 200px;">
+    {% if publication.image %}
+      <img class="img-fluid" src="{{publication.image}}" alt="Key Figure" style="max-height: 200px;">
+    {% endif %}
   </div>
 
-  <!-- Text & links column -->
+ {% comment %} Right: Excerpt {% endcomment %}
   <div class="col-md-7 col-12">
+    {% if publication.excerpt %}
+      <p class="pub-excerpt">{{ publication.excerpt }}</p>
+    {% endif %}
+  </div>
+</div>
+
+{% comment %} Resources: All the existing links (DOI, PDF, Repositories) {% endcomment %}
+<div class="row mb-4">
+  <div class="col-12">
     <h5>Publication & Related Resources</h5>
     <ul class="list-unstyled small">
+    </ul>
+  </div>
+</div>	
 
 	{% comment %} Published Article {% endcomment %}	
 	{% if publication.doi %}
