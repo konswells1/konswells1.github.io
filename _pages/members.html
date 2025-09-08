@@ -22,23 +22,36 @@ layout: default
       <p><a href="{{ member.website }}" target="_blank">Website</a></p>
     {% endif %}
     {% if member.orcid %}
-    	<a href="http://orcid.org"><img class="inline-block mem-icon" src="/images/ORCID_iD.svg.png"></a>
+    	<a href="http://orcid.org"><img class="inline-block mem-icon" src="/images/ORCID_iD.png"></a>
         <a href="http://orcid.org/{{member.orcid}}"> {{member.orcid}}</a> <br>
     {% endif %}
     {% if member.linkedin %}
-    	<a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/images/LinkedIn_icon.svg.png"></a>
+    	<a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/images/LinkedIn_icon.png"></a>
         	 <a href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a> <br>
     {% endif %}
     {% if member.scholar %}
     	<a href="http://scholar.google.com">
-    	<img class="inline-block mem-icon" src="/images/Google_Scholar_logo.svg.png" alt="Google Scholar"></a>
+    	<img class="inline-block mem-icon" src="/images/Google_Scholar_logo.png" alt="Google Scholar"></a>
   	<a href="http://scholar.google.com/citations?user={{ member.scholar }}">Google Scholar</a><br>
     {% endif %}
     {% if member.github %}
-    	<a href="http://github.com"><img class="inline-bloc mem-icon" src="/images/github_logo.svg.png"></a>
+    	<a href="http://github.com"><img class="inline-block mem-icon" src="/images/github_logo.png"></a>
    	<a href= "http://github.com/{{member.github}}"> {{member.github}} </a> <br>
      {% endif %}
 
+    <div>{{ member.content | markdownify }}</div>
+  </div>
+  <hr>
+{% endfor %}
+
+<h2>Alumni</h2>
+{% assign alumni = site.members | where_exp:"member", "member.enddate != nil and member.enddate != ''" | sort: "enddate" | reverse %}
+
+{% for member in alumni %}
+  <div class="member alumni">
+    <img src="{{ member.image }}" alt="{{ member.name }}" style="max-width:200px;">
+    <h3>{{ member.name }}</h3>
+    <p><em>{{ member.position }}</em> (Until {{ member.enddate | date: "%Y-%m" }})</p>
     <div>{{ member.content | markdownify }}</div>
   </div>
   <hr>
