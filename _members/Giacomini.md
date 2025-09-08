@@ -1,0 +1,15 @@
+---
+name: Alessandra Giacomini
+pronouns: she/her
+position: PhD student
+startdate: [2022-10-01]
+enddate: []
+email: 2156511@swansea.ac.uk
+image: /images/members/Person_placeholder.png
+website:
+orcid: 0000-0001-9121-1660
+linkedin: 
+scholar: jDUE-Q0AAAAJ&hl
+github: 
+description: "Alessandra has a background in Veterinary Science and studies parasite spread and microbiome-stressor relationships in domesticated and synanthropic species."
+---
