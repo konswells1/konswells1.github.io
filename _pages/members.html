@@ -1,12 +1,13 @@
 ---
 title: Members
 layout: default
-group: members
 permalink: /members/
 ---
 
-<h1>Members</h1>
-<p>Welcome to our group!</p>
+<h2>Testing Members Page</h2>
 
-<h2>Current Members</h2>
-{% assign current_members = site.members | where_exp: "member", "member.enddate == nil or member.enddate == ''" | sort: "startdate"
+<ul>
+  {% for member in site.members %}
+    <li>{{ member.name }}</li>
+  {% endfor %}
+</ul>
