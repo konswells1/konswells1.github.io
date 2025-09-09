@@ -131,3 +131,8 @@ html, body {
   padding: 30px 0;
   border-bottom: 1px solid #ddd;
 }
+
+.member-description {
+  text-align: left;
+  line-height: 1.6;
+}
