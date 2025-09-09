@@ -7,9 +7,9 @@ enddate: []
 email: 2313674 [ad] Swansea [dot] ac.uk
 image: /images/members/Person_placeholder.png
 website:
-orcid: 0000-0001-9121-1660
+orcid:
 linkedin: 
-scholar: jDUE-Q0AAAAJ&hl
+scholar:
 github: 
 description: "Taylor currently an undergraduate student in Biosciences undertaking a Year in Research with [Dr Tamsyn Uren Webster](https://www.swansea.ac.uk/staff/t.m.urenwebster/) and Konstans."
 ---
