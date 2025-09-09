@@ -12,7 +12,7 @@ Our group welcomes people from all backgrounds who are driven by curiosity, enth
 <hr>
 <h2>Current Members</h2>
 
-{% assign current_members = site.members | sort: "startdate" % | reverse %}
+{% assign current_members = site.members | sort: "startdate" %}
 {% for member in current_members %}
   {% unless member.enddate == empty or member.startdate.size != member.enddate.size %}
     {% continue %}
@@ -40,7 +40,23 @@ Our group welcomes people from all backgrounds who are driven by curiosity, enth
 
   {% include member_card.html member=member %}
 {% endfor %}
+<hr>
 
+<h3>Interns</h3>
+
+{% assign interns = site.members | sort: "startdate" %}
+{% for member in interns %}
+  {% unless member.enddate == empty or member.startdate.size != member.enddate.size %}
+    {% continue %}
+  {% endunless %}
+
+  {% assign position = member.position | downcase %}
+  {% unless position contains "intern" %}
+    {% continue %}
+  {% endunless %}
+
+  {% include member_card.html member=member %}
+{% endfor %}
 <hr>
 
 <h3>Alumni</h3>
