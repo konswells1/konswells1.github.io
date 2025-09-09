@@ -12,5 +12,5 @@ website:
 linkedin: lucie-thompson-194717150
 github: LucieTp
 orcid: 0000-0001-7526-6231
-description: "Lucie explored during her PhD studies how anthropogenic disturbances modulate food web assembly and how protected areas with different policies are efficiently protecting biodiversity. Her work at Swansea University was supervised by Dr Miguel Lurgi, Prof. Emily Shepard and Dr Konstans Wells."
+description: "Lucie explored during her PhD studies how anthropogenic disturbances modulate food web assembly and how protected areas with different policies are efficiently protecting biodiversity. Her work at Swansea University was supervised by [Dr Miguel Lurgi](https://www.swansea.ac.uk/staff/miguel.lurgi/), [Prof. Emily Shepard](https://www.swansea.ac.uk/staff/e.l.c.shepard/) and Konstans."
 ---
