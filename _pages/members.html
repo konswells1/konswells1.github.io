@@ -12,7 +12,7 @@ Our group welcomes people from all backgrounds who are driven by curiosity, enth
 <hr>
 <h2>Current Members</h2>
 
-{% assign current_members = site.members | sort: "startdate" %}
+{% assign current_members = site.members | sort: "startdate" % | reverse %}
 {% for member in current_members %}
   {% unless member.enddate == empty or member.startdate.size != member.enddate.size %}
     {% continue %}
