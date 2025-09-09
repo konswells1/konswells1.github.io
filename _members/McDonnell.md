@@ -1,7 +1,7 @@
 ---
 name: Pádraic McDonnell
 pronouns: he/him
-position: MRes Student
+position: MRes Student (co-supervision)
 startdate: [2025-01-01]
 enddate: []
 email: 2123141 [at] swansea [dot] ac.uk
