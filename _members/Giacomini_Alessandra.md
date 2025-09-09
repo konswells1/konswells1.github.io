@@ -12,5 +12,6 @@ orcid: 0000-0001-9121-1660
 linkedin: 
 scholar: jDUE-Q0AAAAJ&hl
 github: 
-description: "Alessandra has a background in Veterinary Science and studies parasite spread and microbiome-stressor relationships in domesticated and synanthropic species. Her work is supervised by Dr Tamsyn Uren Webster and Dr Konstans Wells."
+description: "Alessandra has a background in Veterinary Sciences with Master's degrees from the University of Bologne (Italy) on feline oral squamous cell carcinoma and the National Veterinary School of Toulouse and CIRAD (France) on disease spreading risk through livestock trading networks. For her Ph.D, Alessandra studies parasite spread and microbiome-stressor relationships in domesticated and synanthropic species. Her work is supervised by [Dr Tamsyn Uren Webster](https://www.swansea.ac.uk/staff/t.m.urenwebster/) and Konstans. <br>
+Outside of the lab, she enjoys cooking, playing with her dog, and board games."
 ---
