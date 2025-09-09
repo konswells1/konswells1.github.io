@@ -26,21 +26,6 @@ Our group welcomes people from all backgrounds who are driven by curiosity, enth
 {% endfor %}
 
 <hr>
-<h3>Affiliates</h3>
-
-{% assign affiliate = site.members | sort: "startdate" %}
-{% for member in affiliate %}
-  {% unless member.enddate == empty or member.startdate.size != member.enddate.size %}
-    {% continue %}
-  {% endunless %}
-
-  {% unless member.position contains "Affiliate" %}
-    {% continue %}
-  {% endunless %}
-
-  {% include member_card.html member=member %}
-{% endfor %}
-<hr>
 
 <h3>Interns</h3>
 
