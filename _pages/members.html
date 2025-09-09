@@ -18,7 +18,8 @@ Our group welcomes people from all backgrounds who are driven by curiosity, enth
     {% continue %}
   {% endunless %}
 
-  {% if member.position contains "Affiliate" or member.position contains "Visiting" %}
+  {% assign position = member.position | downcase %}
+  {% if position contains "affiliate" or position contains "visiting" or position contains "intern" %}
     {% continue %}
   {% endif %}
 
