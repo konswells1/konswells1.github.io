@@ -6,6 +6,7 @@ startdate: [2022-10-01]
 enddate: []
 email: 2156511 [at] swansea [dot] ac.uk
 image: /images/members/profile_Giacomini_Alessandra.png
+altimage: /images/members/altimage_Giacomini_Alessandra.png
 website:
 orcid: 0000-0001-9121-1660
 linkedin: 
