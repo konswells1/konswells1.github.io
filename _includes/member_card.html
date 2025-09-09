@@ -1,12 +1,11 @@
-<div class="member-entry my-5 d-flex justify-content-center">
+<div class="member-entry">
   <div class="member-card">
 
-    <!-- Layout Container: Two columns -->
+    <!-- Flex container -->
     <div class="member-content">
-
-      <!-- LEFT: Image + Info -->
+      
+      <!-- LEFT COLUMN: Image + Info -->
       <div class="member-left">
-        <!-- Image -->
         <div class="member-image-box">
           <img class="member-photo"
                src="{{ include.member.image }}"
@@ -17,8 +16,7 @@
                {% endif %}>
         </div>
 
-        <!-- Info -->
-        <div class="member-info mt-3">
+        <div class="member-info">
           <strong>{{ include.member.name }}</strong><br>
 
           {% if include.member.pronouns %}
@@ -61,13 +59,13 @@
         </div>
       </div>
 
-      <!-- RIGHT: Description -->
+      <!-- RIGHT COLUMN: Description -->
       <div class="member-right">
         <div class="member-description">
           {{ include.member.description | markdownify }}
         </div>
       </div>
-
     </div>
+
   </div>
 </div>
