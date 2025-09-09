@@ -1,20 +1,17 @@
 <div class="member-entry">
   <div class="member-card">
 
-    <!-- Flex container -->
-    <div class="member-content">
-      
+    <div class="member-content"> <!-- FLEX container -->
+
       <!-- LEFT COLUMN: Image + Info -->
       <div class="member-left">
-        <div class="member-image-box">
-          <img class="member-photo"
-               src="{{ include.member.image }}"
-               alt="{{ include.member.name }}"
-               {% if include.member.altimage %}
-                 onmouseover="this.src='{{ include.member.altimage }}';"
-                 onmouseout="this.src='{{ include.member.image }}';"
-               {% endif %}>
-        </div>
+        <img class="member-photo"
+             src="{{ include.member.image }}"
+             alt="{{ include.member.name }}"
+             {% if include.member.altimage %}
+               onmouseover="this.src='{{ include.member.altimage }}';"
+               onmouseout="this.src='{{ include.member.image }}';"
+             {% endif %}>
 
         <div class="member-info">
           <strong>{{ include.member.name }}</strong><br>
@@ -30,29 +27,29 @@
           {% endif %}
 
           {% if include.member.website %}
-            <a href="{{ include.member.website }}" target="_blank" rel="noopener">{{ include.member.website }}</a><br>
+            <a href="{{ include.member.website }}" target="_blank">{{ include.member.website }}</a><br>
           {% endif %}
 
           {% if include.member.orcid %}
-            <a href="https://orcid.org/{{ include.member.orcid }}" target="_blank" rel="noopener">
+            <a href="https://orcid.org/{{ include.member.orcid }}" target="_blank">
               <img class="mem-icon" src="/images/logo/ORCID_logo.png" alt="ORCID"> {{ include.member.orcid }}
             </a><br>
           {% endif %}
 
           {% if include.member.linkedin %}
-            <a href="https://linkedin.com/in/{{ include.member.linkedin }}" target="_blank" rel="noopener">
+            <a href="https://linkedin.com/in/{{ include.member.linkedin }}" target="_blank">
               <img class="mem-icon" src="/images/logo/LinkedIn_logo.png" alt="LinkedIn"> {{ include.member.linkedin }}
             </a><br>
           {% endif %}
 
           {% if include.member.scholar %}
-            <a href="https://scholar.google.com/citations?user={{ include.member.scholar }}" target="_blank" rel="noopener">
+            <a href="https://scholar.google.com/citations?user={{ include.member.scholar }}" target="_blank">
               <img class="mem-icon" src="/images/logo/GoogleScholar_logo.png" alt="Google Scholar"> Google Scholar
             </a><br>
           {% endif %}
 
           {% if include.member.github %}
-            <a href="https://github.com/{{ include.member.github }}" target="_blank" rel="noopener">
+            <a href="https://github.com/{{ include.member.github }}" target="_blank">
               <img class="mem-icon" src="/images/logo/github_logo.png" alt="GitHub"> {{ include.member.github }}
             </a><br>
           {% endif %}
@@ -65,7 +62,7 @@
           {{ include.member.description | markdownify }}
         </div>
       </div>
-    </div>
 
+    </div>
   </div>
 </div>
