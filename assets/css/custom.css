@@ -111,10 +111,10 @@ html, body {
 
 /* Member image size */
 .member-photo {
-  width: 275x;
-  height: 275px;
-  object-fit: cover; /* Ensures image fills the area without distortion */
-  border-radius: 5px; /* Optional: rounded corners */
+  width: 250x;
+  height: 250px;
+  object-fit: cover; /* fill the area without distortion */
+  border-radius: 5px; /* rounded corners */
 }
 
 /* Logo size */
