@@ -132,6 +132,21 @@ html, body {
   border-bottom: 1px solid #ddd;
 }
 
+/* Container for member-card */
+.member-card {
+  max-width: 1000px;
+  width: 100%;
+  padding: 1rem;
+}
+
+/* Two-column layout for member-cards */
+.member-content {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center !important;
+}
+
 .member-description {
   text-align: left;
   line-height: 1.6;
