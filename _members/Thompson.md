@@ -2,11 +2,11 @@
 name: Lucie Thompson
 pronouns: she/her
 startdate: [2021-10-01]
-enddate: [2025-04-01]
+enddate: [2025-04-30]
 image: 
 altimage: 
 position: PhD Student
-email: lucie.thompson (at) swansea.ac.uk #Preferred public email address
+email:
 scholar:
 website:
 linkedin:lucie-thompson-194717150
