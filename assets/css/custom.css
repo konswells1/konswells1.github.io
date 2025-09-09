@@ -126,13 +126,7 @@ html, body {
   vertical-align: middle;
 }
 
-/* Member spacing */
-.member-block {
-  padding: 30px 0;
-  border-bottom: 1px solid #ddd;
-}
-
-/* Container for member-card */
+/* Member cards */
 .member-entry {
   display: flex;
   justify-content: center;
@@ -146,21 +140,60 @@ html, body {
   border-bottom: 1px solid #ddd;
 }
 
-/* Two-column layout for member-cards */
 .member-content {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
   flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.member-left {
+  flex: 0 0 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.member-photo {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.member-info {
+  font-size: 0.95rem;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.member-right {
+  flex: 1;
+  min-width: 300px;
 }
 
 .member-description {
-  text-align: left;
+  font-size: 1rem;
   line-height: 1.6;
+  text-align: justify;
 }
 
-/* Responsive stacking on smaller screens */
+.mem-icon {
+  height: 1em;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
 @media (max-width: 768px) {
   .member-content {
     flex-direction: column;
   }
+
+  .member-left, .member-right {
+    width: 100%;
+  }
+
+  .member-info {
+    text-align: center;
+  }
+}
