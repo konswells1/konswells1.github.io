@@ -1,63 +1,60 @@
-<div class="row justify-content-center mb-5">
-  <div class="col-lg-10">
-    <div class="row">
-      <!-- Left Column: Photo + Info -->
-      <div class="col-md-4 text-center">
-        <img class="img-fluid member-photo mb-3" src="{{ include.member.image }}"
-             {% if include.member.altimage %}
-             onmouseover="this.src='{{ include.member.altimage }}';"
-             onmouseout="this.src='{{ include.member.image }}';"
-             {% endif %}
-             alt="{{ include.member.name }}">
+<div class="container member-entry my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-10">
+      <div class="row align-items-start">
 
-        <div class="mt-2">
+        <!-- Left Column: Image + Info -->
+        <div class="col-md-4 text-center mb-3">
+          <img class="img-fluid rounded member-photo mb-2" src="{{ include.member.image }}" alt="{{ include.member.name }}">
+          {% if member.altimage %}
+             onmouseover="this.src='{{ member.altimage }}';"
+             onmouseout="this.src='{{ member.image }}';"
+          {% endif %}          
+
           <strong>{{ include.member.name }}</strong><br>
           {% if include.member.pronouns %}
             <em>{{ include.member.pronouns }}</em><br>
           {% endif %}
-          {{ include.member.position | markdownify | remove: '<p>' | remove: '</p>' }}<br>
-          {% if include.member.startdate %}
-            <small>Start: {{ include.member.startdate }}</small><br>
-          {% endif %}
-          {% if include.member.enddate %}
-            <small>End: {{ include.member.enddate }}</small><br>
-          {% endif %}
-          {% if include.member.email %}
-            <em>{{ include.member.email }}</em><br>
-          {% endif %}
 
-          <!-- Links -->
+          {{ include.member.position | markdownify | remove: '<p>' | remove: '</p>' }}<br>
+          <em>{{ include.member.email }}</em><br>
+
           {% if include.member.website %}
             <a href="{{ include.member.website }}" target="_blank" rel="noopener">{{ include.member.website }}</a><br>
           {% endif %}
+
           {% if include.member.orcid %}
             <a href="https://orcid.org/{{ include.member.orcid }}" target="_blank" rel="noopener">
-              <img class="inline-block mem-icon" src="/images/logo/ORCID_logo.png"> ORCID
+              <img class="inline-block mem-icon" src="/images/logo/ORCID_logo.png" alt="ORCID"> {{ include.member.orcid }}
             </a><br>
           {% endif %}
+
           {% if include.member.linkedin %}
-            <a href="https://www.linkedin.com/in/{{ include.member.linkedin }}" target="_blank" rel="noopener">
-              <img class="inline-block mem-icon" src="/images/logo/LinkedIn_logo.png"> LinkedIn
+            <a href="https://linkedin.com/in/{{ include.member.linkedin }}" target="_blank" rel="noopener">
+              <img class="inline-block mem-icon" src="/images/logo/LinkedIn_logo.png" alt="LinkedIn"> {{ include.member.linkedin }}
             </a><br>
           {% endif %}
+
           {% if include.member.scholar %}
             <a href="https://scholar.google.com/citations?user={{ include.member.scholar }}" target="_blank" rel="noopener">
-              <img class="inline-block mem-icon" src="/images/logo/GoogleScholar_logo.png"> Google Scholar
+              <img class="inline-block mem-icon" src="/images/logo/GoogleScholar_logo.png" alt="Google Scholar"> Google Scholar
             </a><br>
           {% endif %}
+
           {% if include.member.github %}
             <a href="https://github.com/{{ include.member.github }}" target="_blank" rel="noopener">
-              <img class="inline-block mem-icon" src="/images/logo/github_logo.png"> GitHub
+              <img class="inline-block mem-icon" src="/images/logo/github_logo.png" alt="GitHub"> {{ include.member.github }}
             </a><br>
           {% endif %}
         </div>
-      </div>
 
-      <!-- Right Column: Description -->
-      <div class="col-md-8">
-        <div class="member-description">
-          {{ include.member.description | markdownify }}
+        <!-- Right Column: Description -->
+        <div class="col-md-8">
+          <div class="member-description">
+            {{ include.member.description | markdownify }}
+          </div>
         </div>
+
       </div>
     </div>
   </div>
