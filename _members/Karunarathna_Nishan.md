@@ -4,6 +4,8 @@ pronouns: he/him
 position: PhD Student (co-supervision)
 startdate: [2022-10-01]
 enddate: []
+group: Staff & Technical Experts
+role: phd_student
 email:  k.karunarathna [at] uqconnect [dot] edu.au
 image: /images/members/profile_NishanKarunarathna.jpg
 website:
