@@ -7,7 +7,7 @@ enddate: []
 group: Researchers & Scholars
 role: phd_student
 email: 2422766 [ad] swansea [dot] ac.uk
-image: /images/members/Person_placeholder.png
+image: /images/members/profile_Townsend_Molly.png
 website:
 orcid:
 linkedin: 
