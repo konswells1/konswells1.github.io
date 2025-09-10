@@ -4,6 +4,8 @@ pronouns: he/him
 position: MRes Student (co-supervision)
 startdate: [2025-01-01]
 enddate: []
+group: Researchers & Scholars
+role: master_student
 email: 2123141 [at] swansea [dot] ac.uk
 image: /images/members/profile_Pádraic McDonnell.jpg
 website:
