@@ -4,6 +4,8 @@ pronouns: he/him
 position: Principal Investigator
 startdate: [2018-10-01]
 enddate: []
+group: Principal Investigator(s)
+role: PI
 email: k.l.wells [at] swansea [dot] ac.uk
 image: /images/members/profile_konswells_2024_3.png
 altimage: /images/members/profile_konswells.png
@@ -22,6 +24,7 @@ In his spare time, Konstans enjoys being outdoors, often combining sport, travel
 ---
 
  
+
 
 
 
