@@ -28,7 +28,7 @@ html, body {
 .masthead__menu,
 #site-nav,
 .greedy-nav {
-  background-color: #20b2aa !important;
+  background-color: #00796B !important;
   width: 100vw !important;
   max-width: none !important;
   margin: 0 !important;
@@ -92,7 +92,7 @@ html, body {
 /* Ensure list items and links have background */
 .greedy-nav .visible-links > li,
 .greedy-nav .visible-links > li > a {
-  background-color: #20b2aa !important;
+  background-color: #00796B !important;
 }
 
 /* Hover color */
