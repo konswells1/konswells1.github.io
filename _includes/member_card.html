@@ -62,6 +62,12 @@
               <img class="mem-icon" src="/images/logo/github_logo.png" alt="GitHub"> {{ include.member.github }}
             </a><br>
           {% endif %}
+          
+          {% if include.member.bluesky %}
+                  <a href="https://bsky.app/"><img class="inline-bloc mem-icon" src="/images/logo/Bluesky_logo.png"></a>
+                  <a href= "https://bsky.app/profile/{{member.bluesky}}"> {{member.bluesky}} </a> <br>
+          {% endif %}
+          
         </div>
       </div>
 
