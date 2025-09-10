@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+</head>
+<body>
+  <header>
+    <nav>
+      <!-- example navigation -->
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/mission/' | relative_url }}">mission & values</a></li>
+        <li><a href="{{ '/teaching/' | relative_url }}">teaching</a></li>
+        <li><a href="{{ '/publications.html' | relative_url }}">publications</a></li>
+        <li><a href="{{ '/people.html' | relative_url }}">people</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      {{ content }}
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }} Lab</p>
+  </footer>
+</body>
+</html>
