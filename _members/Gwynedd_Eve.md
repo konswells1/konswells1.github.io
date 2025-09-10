@@ -4,6 +4,8 @@ pronouns: she/her
 position: PhD Student (co-supervision)
 startdate: [2024-10-01]
 enddate: []
+group: Researchers & Scholars
+role: phd_student
 email: 2410650 [at] Swansea [dot] ac.uk 
 image: /images/members/Person_placeholder.png
 website:
