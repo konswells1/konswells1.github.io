@@ -21,26 +21,54 @@ permalink: /members/
 Our group welcomes people from all backgrounds who are driven by curiosity, enthusiasm for science, and a commitment to sustainability. We value diversity, collaboration, and scientific rigour, and strive to create a supportive environment where all members can grow, contribute, and thrive.
 </p>
 
-{% assign sorted_members = site.members | sort: 'startdate' %}
-
 {% assign groups = "Principal Investigator(s),Researchers & Scholars,Staff & Technical Experts,Interns & Trainees,Alumni" | split: "," %}
 
 {% for group in groups %}
   <h2>{{ group }}</h2>
+
+  {% assign group_members = site.members | where: "group", group %}
+
+  {% if group == "Alumni" %}
+    {% assign group_members = group_members | sort: "enddate" | reverse %}
   
-  {% assign group_members = sorted_members | where: "group", group %}
+  {% elsif group == "Researchers & Scholars" %}
+    {% assign postdocs = group_members | where: "role", "postdoc" %}
+    {% assign phd_students = group_members | where: "role", "phd_student" %}
+    {% assign master_students = group_members | where: "role", "master_student" %}
   
-  {% if group_members == empty %}
-    <p><em>No current members in this category.</em></p>
+  {% else %}
+    {% assign group_members = group_members | sort: "startdate" %}
   {% endif %}
 
-  <div class="member-group">
-    {% for member in group_members %}
-      {% include member_card.html member=member %}
-    {% endfor %}
-  </div>
-{% endfor %}
+  {% if group == "Researchers & Scholars" %}
+    {% if postdocs == empty and phd_students == empty and master_students == empty %}
+      <p><em>No current members in this category.</em></p>
+    {% endif %}
 
+    <div class="member-group">
+      {% for member in postdocs %}
+        {% include member_card.html member=member %}
+      {% endfor %}
+      {% for member in phd_students %}
+        {% include member_card.html member=member %}
+      {% endfor %}
+      {% for member in master_students %}
+        {% include member_card.html member=member %}
+      {% endfor %}
+    </div>
+
+  {% else %}
+    {% if group_members == empty %}
+      <p><em>No current members in this category.</em></p>
+    {% endif %}
+
+    <div class="member-group">
+      {% for member in group_members %}
+        {% include member_card.html member=member %}
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}
 
     <!-- Optional right sidebar -->
     <aside class="col-xl-2 d-none d-xl-block">
