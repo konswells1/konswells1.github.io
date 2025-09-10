@@ -37,17 +37,6 @@ html, body {
   box-shadow: none !important;
 }
 
-/* Reduce spacing between nav links */
-.greedy-nav .visible-links li {
-  margin-right: 10px;
-}
-
-/* Padding inside the link itself */
-.greedy-nav .visible-links li a {
-  padding: 6px 8px;
-}
-
-
 /* Force masthead height */
 .masthead {
   height: 70px;
@@ -81,7 +70,7 @@ html, body {
   background-color: #00796B !important;
 }
 
-/* Links list fills height */
+/* greedy-nav format */
 .greedy-nav .visible-links {
   display: flex;
   align-items: center;
@@ -89,6 +78,18 @@ html, body {
   list-style: none;
   padding: 0;
   margin: 0;
+  gap: 10px; /* replaces margin-right on li */
+}
+
+.greedy-nav .visible-links li a {
+  padding: 6px 8px;
+}
+
+/* Background color of the "More" drop-down menu */
+.greedy-nav .hidden-links {
+  background-color: #00796B !important;
+  padding: 10px;
+  border-radius: 4px;
 }
 
 /* Nav items fill height */
