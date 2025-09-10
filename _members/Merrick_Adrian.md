@@ -8,6 +8,7 @@ group: Alumni
 role: master_student
 next_position: Data Engineer 
 next_url: 
+image: /images/members/profile_avatar_1.jpg
 email: 
 scholar: 
 website: 
