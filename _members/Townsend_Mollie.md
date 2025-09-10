@@ -4,6 +4,8 @@ pronouns: she/her
 position: PhD Student
 startdate: [2024-10-01]
 enddate: []
+group: Researchers & Scholars
+role: phd_student
 email: 2422766 [ad] swansea [dot] ac.uk
 image: /images/members/Person_placeholder.png
 website:
