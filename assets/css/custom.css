@@ -248,3 +248,56 @@ html, body {
     text-align: center;
   }
 }
+
+
+/* Container for snippets */
+details {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  background: #f9f9f9;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+/* Style the summary ( for the clickable part  of snippets) */
+summary {
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  font-size: 1.15rem;
+  list-style: none;
+}
+
+/* Remove default arrow */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Custom arrow before summary */
+summary::before {
+  content: "▶";
+  display: inline-block;
+  margin-right: 0.5rem;
+  transition: transform 0.3s ease;
+  color: #00796B; /* teal accent */
+}
+
+/* Rotate arrow when open */
+details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+/* Paragraph inside details */
+details p {
+  margin-top: 0.75rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Optional: add smooth open/close animation */
+details[open] {
+  background-color: #e0f2f1;
+}
