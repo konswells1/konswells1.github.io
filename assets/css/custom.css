@@ -1,7 +1,25 @@
+
 /* Reset global spacing */
 html, body {
   margin: 0;
   padding: 0;
+}
+
+/* define pages layout */
+.page-layout {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.page-main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1200px) {
+  .page-main {
+    max-width: 960px;
+  }
 }
 
 /* Masthead and nav bar background */
