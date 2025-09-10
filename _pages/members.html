@@ -1,84 +1,27 @@
 ---
-title: Members
-layout: default
-group: members
+layout: page
+title: People
 permalink: /members/
 ---
 
-<div class="container-fluid page-layout">
-  <div class="row">
-    
-    <!-- Optional left sidebar -->
-    <aside class="col-xl-2 d-none d-xl-block">
-      <!-- Future sidebar -->
-    </aside>
+<h1>Our People</h1>
 
-    <!-- Main content area -->
-    <main class="col-12 col-xl-8 page-main">
+{% assign sorted_members = site.members | sort: 'startdate' %}
 
-<p>
-    Our group welcomes people from all backgrounds who are driven by curiosity, enthusiasm for science, and a commitment to sustainability. We value diversity, collaboration, and scientific rigour, and strive to create a supportive environment where all members can grow, contribute, and thrive.
-</p>
+{% assign groups = "Principal Investigator(s),Researchers & Scholars,Staff & Technical Experts,Interns & Trainees,Alumni" | split: "," %}
 
-<hr>
-<h2>Current Members</h2>
-
-{% assign current_members = site.members | sort: "startdate" %}
-{% for member in current_members %}
-  {% unless member.enddate == empty or member.startdate.size != member.enddate.size %}
-    {% continue %}
-  {% endunless %}
-
-  {% assign position = member.position | downcase %}
-  {% if position contains "affiliate" or position contains "visiting" or position contains "intern" %}
-    {% continue %}
+{% for group in groups %}
+  <h2>{{ group }}</h2>
+  
+  {% assign group_members = sorted_members | where: "group", group %}
+  
+  {% if group_members == empty %}
+    <p><em>No current members in this category.</em></p>
   {% endif %}
 
-  {% include member_card.html member=member %}
-{% endfor %}
-
-<hr>
-
-<h3>Interns</h3>
-
-{% assign interns = site.members | sort: "startdate" %}
-{% for member in interns %}
-  {% unless member.enddate == empty or member.startdate.size != member.enddate.size %}
-    {% continue %}
-  {% endunless %}
-
-  {% assign position = member.position | downcase %}
-  {% unless position contains "intern" %}
-    {% continue %}
-  {% endunless %}
-
-  {% include member_card.html member=member %}
-{% endfor %}
-<hr>
-
-<h3>Alumni</h3>
-
-{% assign alumni = site.members | sort: "enddate" | reverse %}
-{% for member in alumni %}
-  {% if member.enddate == empty or member.startdate.size != member.enddate.size %}
-    {% continue %}
-  {% endif %}
-
-  {% assign position = member.position | downcase %}
-  {% if position contains "affiliate" or position contains "visiting" or position contains "intern" or position contains "high school" %}
-    {% continue %}
-  {% endif %}
-
-  {% include member_card.html member=member %}
-{% endfor %}
-
-</main>
-
-<!-- Optional right sidebar -->
-<aside class="col-xl-2 d-none d-xl-block">
-    <!-- Future sidebar -->
-</aside>
-
+  <div class="member-group">
+    {% for member in group_members %}
+      {% include member_card.html member=member %}
+    {% endfor %}
   </div>
-</div>
-
+{% endfor %}
