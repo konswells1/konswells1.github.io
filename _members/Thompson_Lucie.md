@@ -6,6 +6,8 @@ enddate: [2025-04-01]
 image: /images/members/profile_Lucie_Thompson.jpg
 altimage: /images/members/altimage_Thompson_Lucie.png
 position: PhD Student (co-supervision)
+group: Alumni
+role: phd_student
 email: lucie.thompson [at] swansea [dot] ac.uk
 scholar:
 website:
