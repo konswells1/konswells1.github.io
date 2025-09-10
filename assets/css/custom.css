@@ -37,6 +37,17 @@ html, body {
   box-shadow: none !important;
 }
 
+/* Reduce spacing between nav links */
+.greedy-nav .visible-links li {
+  margin-right: 10px;
+}
+
+/* Padding inside the link itself */
+.greedy-nav .visible-links li a {
+  padding: 6px 8px;
+}
+
+
 /* Force masthead height */
 .masthead {
   height: 70px;
