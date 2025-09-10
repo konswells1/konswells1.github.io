@@ -7,7 +7,7 @@ enddate: []
 group: Researchers & Scholars
 role: phd_student
 email: 2410650 [at] Swansea [dot] ac.uk 
-image: /images/members/Person_placeholder.png
+image: /images/members/profile_avatar_1.jpg
 website:
 orcid:
 linkedin: 
