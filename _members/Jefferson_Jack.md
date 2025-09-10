@@ -3,7 +3,7 @@ name: Jack Jefferson
 pronouns: he/him
 startdate: [2024-02-01]
 enddate: [2025-06-01]
-image: 
+image: /images/members/profile_avatar_1.jpg
 altimage: 
 position: MRes Student
 group: Alumni
