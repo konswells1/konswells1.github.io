@@ -4,6 +4,8 @@ pronouns: she/her
 position: PhD Student
 startdate: [2022-10-01]
 enddate: []
+group: Researchers & Scholars
+role: phd_student
 email: 2156511 [at] swansea [dot] ac.uk
 image: /images/members/profile_Giacomini_Alessandra.png
 altimage: /images/members/altimage_Giacomini_Alessandra.png
