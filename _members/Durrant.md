@@ -6,14 +6,13 @@ enddate: [2022-09-30]
 image: 
 altimage: 
 position: MRes student
-subsequent: PhD student, [Hampson Lab](http://www.katiehampson.com/) @ University of Glasgow
-pronouns: 
+next_position: PhD student, University of Glasgow, [Hampson Lab](http://www.katiehampson.com/) 
 email: 
-scholar:
+scholar: E0zB4woAAAAJ
 website:
 twitter: 
 linkedin: 
 github: RowanDurrant
 orcid: 0000-0002-9742-2052
-description: "Rowan conducted research for her Master in Research on the effects of metapopulation structure on Tasmanian devil facial tumour disease spread. Her work at Swansea University was supervised by Dr Miguel Lurgi and Dr Konstans Wells"
+description: "Rowan conducted research for her Master in Research on the effects of metapopulation structure on Tasmanian devil facial tumour disease spread. Her work at Swansea University was supervised by [Dr Miguel Lurgi](https://www.swansea.ac.uk/staff/miguel.lurgi/) and Konstans"
 ---
