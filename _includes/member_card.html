@@ -20,18 +20,16 @@
             <em>{{ include.member.pronouns }}</em><br>
           {% endif %}
           
-          {% if include.member.enddate and include.member.next_position %}
-              <p class="text-muted">
-              <em>Next:</em>
-              {% if include.member.next_url %}
-                    <a href="{{ include.member.next_url }}" target="_blank" rel="noopener noreferrer">
-                    {{ include.member.next_position }}
-                    </a>
-              {% else %}
-              {{ include.member.next_position }}
-            {% endif %}
-            </p>
-          {% endif %}
+ {% if include.member.enddate and include.member.next_position %}
+  <p class="text-muted">
+    <em>Next:</em> {{ include.member.next_position }}
+    {% if include.member.next_url %}
+      <a href="{{ include.member.next_url }}" target="_blank" rel="noopener noreferrer" style="margin-left: 0.25rem;">
+        <img src="/images/logo/icon_externalLink.png" alt="External link" style="width: 0.9em; height: 0.9em; vertical-align: text-bottom;">
+      </a>
+    {% endif %}
+  </p>
+{% endif %}
 
           {% if include.member.email %}
             <em>{{ include.member.email }}</em><br>
