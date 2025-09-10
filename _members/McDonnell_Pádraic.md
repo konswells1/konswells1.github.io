@@ -11,5 +11,5 @@ orcid:
 linkedin: pádraicmcdonnellbioscientist
 scholar:
 github: 
-description: "Padraic used molecular and bioinformatical approaches to study the diversity of haemosporidian parasites of wild birds and domestic chicken in Borneo. His work is supervised by Dr Tamsyn Uren Webster and Dr Konstans Wells."
+description: "Pádraic graduated from Swansea Unniversity with a degree in Biosciences. As an undergraduate, he worked on marine algae and invertebrate diversity, where he developed a strong interest in using molecular tools for species identification and the efficient characterization of biological diversity. For his MRes project, he uses molecular and bioinformatical approaches to study the diversity of haemosporidian parasites ('avian malaria') of wild birds and domestic chicken in Borneo. His work is supervised by [Dr Tamsyn Uren Webster](https://www.swansea.ac.uk/staff/t.m.urenwebster/) and Dr Konstans Wells."
 ---
