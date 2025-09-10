@@ -1,5 +1,5 @@
 ---
-name: Rowan Durrant
+name: Rowan Durrant, Ph.D.
 pronouns: she/her
 startdate: [2019-10-01]
 enddate: [2022-09-30]
