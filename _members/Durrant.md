@@ -6,7 +6,8 @@ enddate: [2022-09-30]
 image: 
 altimage: 
 position: MRes student
-next_position: PhD student, University of Glasgow, [Hampson Lab](http://www.katiehampson.com/) 
+next_position: PhD student, University of Glasgow, (Hampson Lab)
+next_url: http://www.katiehampson.com/
 email: 
 scholar: E0zB4woAAAAJ
 website:
