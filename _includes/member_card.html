@@ -22,6 +22,10 @@
 
           {{ include.member.position | markdownify | remove: '<p>' | remove: '</p>' }}<br>
 
+          {% if member.enddate and member.next_position %}
+              <p class="text-muted"><strong>Next:</strong> {{ member.next_position }}</p>
+          {% endif %}
+
           {% if include.member.email %}
             <em>{{ include.member.email }}</em><br>
           {% endif %}
