@@ -85,12 +85,24 @@ html, body {
   padding: 6px 8px;
 }
 
-/* Background color of the "More" drop-down menu */
+/* Background color of the drop-down menu container */
 .greedy-nav .hidden-links {
-  background-color: #00796B !important;
+  background-color: #B0BEC5 !important;
   padding: 10px;
   border-radius: 4px;
 }
+
+/* Background color of the drop-down menu links */
+.greedy-nav .hidden-links li a {
+  display: block;
+  background-color: #00796B !important;
+  padding: 8px 12px;
+  margin: 2px 0;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
 
 /* Nav items fill height */
 .masthead__menu-item {
