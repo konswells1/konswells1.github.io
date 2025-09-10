@@ -1,5 +1,5 @@
 ---
-name: Lucie Thompson
+name: Lucie Thompson, Ph.D.
 pronouns: she/her
 startdate: [2021-10-01]
 enddate: [2025-04-01]
