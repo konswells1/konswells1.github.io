@@ -3,14 +3,14 @@ name: Rowan Durrant
 pronouns: she/her
 startdate: [2019-10-01]
 enddate: [2022-09-30]
-image: 
+image: /images/members/profile_RowanDurrant.jpg
 altimage: 
 position: MRes student
 next_position: PhD student, University of Glasgow, (with Prof. Katie Hampson)
 next_url: http://www.katiehampson.com/
-email: 
+email: durrar1 [ad] mcmaster [dot] ca
 scholar: E0zB4woAAAAJ
-website:
+website: https://rgdurrant.com/
 twitter: 
 linkedin: 
 github: RowanDurrant
