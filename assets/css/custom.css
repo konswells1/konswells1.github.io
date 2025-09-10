@@ -52,6 +52,14 @@ html, body {
   align-items: center;
 }
 
+/* Change background color of drop-down menu */
+.navbar-collapse {
+  background-color: #00796B !important;
+}
+.site-nav {
+  background-color: #00796B !important;
+}
+
 /* Greedy nav takes up full space */
 .greedy-nav {
   display: flex;
@@ -59,6 +67,7 @@ html, body {
   height: 100%;
   flex-grow: 1;
   padding: 0 1rem;
+  background-color: #00796B !important;
 }
 
 /* Links list fills height */
