@@ -21,10 +21,16 @@
           {% endif %}
 
           {{ include.member.position | markdownify | remove: '<p>' | remove: '</p>' }}<br>
-
-          {% if member.enddate and member.next_position %}
-              <p class="text-muted"><strong>Next:</strong> {{ member.next_position }}</p>
+          {% if member.next_position %}
+              <p class="text-muted">
+             <p class="text-muted"><em>Next:</em> {{ member.next_position }}</p>
+             {% if member.next_url %}
+                <a href="{{ member.next_url }}" target="_blank">{{ member.next_position }}</a>
+             {% else %}
+            {{ member.next_position }}
           {% endif %}
+          </p>
+         {% endif %}
 
           {% if include.member.email %}
             <em>{{ include.member.email }}</em><br>
