@@ -5,8 +5,19 @@ group: members
 permalink: /members/
 ---
 
+<div class="container-fluid page-layout">
+  <div class="row">
+    
+    <!-- Optional left sidebar -->
+    <aside class="col-xl-2 d-none d-xl-block">
+      <!-- Future sidebar -->
+    </aside>
+
+    <!-- Main content area -->
+    <main class="col-12 col-xl-8 page-main">
+
 <p>
-Our group welcomes people from all backgrounds who are driven by curiosity, enthusiasm for science, and a commitment to sustainability. We value diversity, collaboration, and scientific rigour, and strive to create a supportive environment where all members can grow, contribute, and thrive.
+    Our group welcomes people from all backgrounds who are driven by curiosity, enthusiasm for science, and a commitment to sustainability. We value diversity, collaboration, and scientific rigour, and strive to create a supportive environment where all members can grow, contribute, and thrive.
 </p>
 
 <hr>
@@ -60,4 +71,14 @@ Our group welcomes people from all backgrounds who are driven by curiosity, enth
 
   {% include member_card.html member=member %}
 {% endfor %}
+
+</main>
+
+<!-- Optional right sidebar -->
+<aside class="col-xl-2 d-none d-xl-block">
+    <!-- Future sidebar -->
+</aside>
+
+  </div>
+</div>
 
