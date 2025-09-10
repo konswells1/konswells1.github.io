@@ -6,6 +6,8 @@ enddate: [2025-06-01]
 image: 
 altimage: 
 position: MRes Student
+group: Alumni
+role: master_student
 subsequent: 
 pronouns: 
 email: 
