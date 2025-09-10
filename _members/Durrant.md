@@ -6,7 +6,7 @@ enddate: [2022-09-30]
 image: 
 altimage: 
 position: MRes student
-next_position: PhD student, University of Glasgow, (Hampson Lab)
+next_position: PhD student, University of Glasgow, (with Prof. Katie Hampson)
 next_url: http://www.katiehampson.com/
 email: 
 scholar: E0zB4woAAAAJ
