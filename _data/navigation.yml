@@ -16,10 +16,11 @@ main:
   url: /research/  
 - title: "Publications"
   url: /publications/
-- title: "Mission & Values"
-  url: /mission/
 - title: "Activities"
   url: /activities/ 
+- title: "Mission & Values"
+  url: /mission/
+
   
 #- title: "teaching"
 #  url: /teaching/ 
