@@ -7,22 +7,24 @@ redirect_from:
   - /about.html
 ---
 
-
-We are a research group of interdisciplinary ecologists and life scientists with a commitment to understanding how environmental change shapes the structure, function, and health of ecological systems. My research spans temperate and tropical ecosystems, integrating extensive fieldwork with computational and disease ecology to explore how global change alters biodiversity, species interactions, and disease dynamics.
-
-At the core of our work is the ecological modelling of host–parasite interaction networks, species distributions, and community structure — aimed at revealing how biotic systems respond to climate change, habitat fragmentation, invasive species, and other anthropogenic pressures. We are particularly interested in how demographic and epidemiological dynamics, species range shifts, and biogeographic patterns can be used to identify critical processes for optimizing conservation, managing biological invasions, and preventing disease emergence.
-
-By combining trait-based, macroecological, and dynamic modelling approaches, our research bridges ecology, global change biology, and Planetary Health. Through hindcasting and forecasting human–animal–environment interactions, my group takes a systems-level perspective to uncover how past and present ecological dynamics inform biodiversity futures and public health risks. Our goal is to support adaptive, evidence-based policies tailored to real-world environmental change scenarios — contributing to both planetary health and ecological resilience.
-
-
-
-Key interests
+Biodiversity, Animal Health, and Ecology Group (BAHE)
 ======
 
-* Wildlife ecology and management
-* Disease ecology
-* Eco-epidemiology
-* Ecohealth and One Health
-* Biodiversity
-* Conservation biology
+We are an interdisciplinary research group exploring how environmental change reshapes the ecology of wildlife, biodiversity, and disease. Our work spans temperate and tropical ecosystems, integrating field ecology, computational modelling, and molecular tools to understand how global change alters host–parasite–microbiome interactions and ecosystem health.
+At the core of our research is the prediction and analysis of ecological dynamics species distributions, host–pathogen and host-microbiome interactions. We investigate how climate change, habitat alteration, biological invasions, and other human-driven pressures influence ecosystem functioning and resilience.
+A key focus of our work is understanding how microbiomes, alongside ecological interventions such as habitat restoration, affect host responses to environmental stressors including pollution, altered food webs, invasive species, and rising parasite loads. These interactions are critical for maintaining the health and viability of both wildlife and domestic species.
+By combining species-level studies with macroecological and systems-level approaches, we aim to inform conservation strategies, anticipate emerging ecological risks, and contribute to advancing planetary health.
+
+
+
+Key Research Areas
+======
+
+* Wildlife and disease ecology
+* Host–parasite–microbiome interactions
+* Eco-epidemiology and microbiome ecology
+* Biodiversity and conservation science
+* Computational modelling and ecological systems dynamics
+* One Health and Planetary Health
+
 
