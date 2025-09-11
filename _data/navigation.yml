@@ -10,18 +10,19 @@
 main:
 - title: "home"
   url: /
-- title: "people"
+- title: "People"
   url: /members/
-- title: "research"
+- title: "Research"
   url: /research/  
-- title: "publications"
+- title: "Publications"
   url: /publications/
-- title: "mission & values"
+- title: "Mission & Values"
   url: /mission/
-- title: "teaching"
-  url: /teaching/ 
-
-   
+- title: "Activities"
+  url: /activities/ 
+  
+#- title: "teaching"
+#  url: /teaching/ 
  # - title: "CV"
  #   url: /cv/
   #- title: "Talks"
