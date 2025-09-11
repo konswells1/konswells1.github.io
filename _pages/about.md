@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-# About
+## About
 
-## Biodiversity, Animal Health, and Ecology Group (BAHE)
+# Biodiversity, Animal Health, and Ecology Group (BAHE)
 
 We are an interdisciplinary research group exploring how environmental change reshapes the ecology of wildlife, biodiversity, and disease. Our work spans temperate and tropical ecosystems, integrating field ecology, computational modelling, and molecular tools to understand how global change alters host–parasite–microbiome interactions and ecosystem health.
 
