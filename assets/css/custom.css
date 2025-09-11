@@ -22,7 +22,11 @@ html, body {
   }
 }
 
-.theme-toggle, .theme-toggle-button, #theme-toggle-icon {
+/* Hide theme toggle button */
+.theme-toggle,
+.theme-toggle__button,
+#theme-toggle,
+#dark-mode-toggle {
   display: none !important;
 }
 
