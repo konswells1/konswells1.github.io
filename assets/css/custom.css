@@ -22,6 +22,10 @@ html, body {
   }
 }
 
+.theme-toggle, .theme-toggle-button, #theme-toggle-icon {
+  display: none !important;
+}
+
 /* Masthead and nav bar background */
 .masthead,
 .masthead__inner-wrap,
