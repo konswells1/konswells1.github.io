@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Resilient Conservation Landscapes"
 collection: research
 weight: 10
 excerpt: "Understanding how ecosystems can maintain biodiversity and function under increasing environmental stressors, with a focus on birds and mammals in grasslands and forests."
