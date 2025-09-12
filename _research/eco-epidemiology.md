@@ -1,7 +1,6 @@
 ---
 title: ""
 collection: research
-permalink: /research/
 weight: 7
 excerpt: "Exploring eco-epidemiological disease dynamics to inform effective management and control strategies."
 image: /images/research/BiodivOffsettingDynamics.jpg
