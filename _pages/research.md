@@ -4,6 +4,6 @@ title: "Research"
 permalink: /research/
 collection: research
 entries_layout: grid
-pagination: false
+pagination: 0
 ---
 
