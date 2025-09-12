@@ -13,6 +13,8 @@ redirect_from:
 
 We are an interdisciplinary research group exploring how environmental change reshapes the ecology of wildlife, biodiversity, and disease. Our work spans temperate and tropical ecosystems, integrating field ecology, computational modelling, and molecular tools to understand how global change alters biodiversity, host–parasite–microbiome interactions and ecosystem health.
 
+We are part of the [Department of Biosciences at Swansea University](https://www.swansea.ac.uk/bioscience/).
+
 At the core of our research is the prediction and analysis of ecological dynamics, species distributions, host–pathogen and host-microbiome interactions. We investigate how climate change, habitat alteration, biological invasions, and other human-driven pressures influence ecosystem functioning and resilience.
 
 A key focus of our work is understanding how microbiomes, alongside ecological interventions such as habitat restoration, affect host responses to environmental stressors including pollution, altered food webs, invasive species, and rising parasite loads. These interactions are critical for maintaining the health and viability of both wildlife and domestic species.
