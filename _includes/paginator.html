@@ -1,8 +1,11 @@
-{% include base_path %}
+
 
 
 {%- comment -%}
-{% if paginator.total_pages > 1 %}
+
+{% include base_path %}
+
+{% if paginator.total_pages > 1 and page.url != '/research/' %}
 <nav class="pagination">
   <ul>
     {% comment %} Link for previous page {% endcomment %}
