@@ -3,7 +3,7 @@ title: "Eco-epidemiology and disease spreading dynamics"
 collection: research
 weight: 7
 excerpt: "Exploring eco-epidemiological disease dynamics to inform effective management and control strategies."
-image: /images/research/BiodivOffsettingDynamics.jpg
+image: /images/research/ecoepi_dynamics.jpg
 ---
 
 ## Eco-epidemiology and disease spreading dynamics
