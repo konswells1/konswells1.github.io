@@ -1,0 +1,16 @@
+<div class="card">
+  {% if research.image %}
+    <img src="{{ research.image | relative_url }}" alt="{{ research.title }} thumbnail" class="card-image">
+  {% endif %}
+  <div class="card-content">
+    <h3><a href="{{ research.url }}">{{ research.title }}</a></h3>
+    <p>{{ research.excerpt }}</p>
+    {% if research.tags %}
+      <div class="tags">
+        {% for tag in research.tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</div>
