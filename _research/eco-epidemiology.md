@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Pathogens in a Connected World"
 collection: research
 weight: 7
 excerpt: "Exploring eco-epidemiological disease dynamics to inform effective management and control strategies."
