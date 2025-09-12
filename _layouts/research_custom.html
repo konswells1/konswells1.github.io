@@ -1,16 +1,6 @@
 <div class="research-grid">
   {% for project in site.research %}
-    <div class="card">
-      <img src="{{ project.image }}" alt="{{ project.title }} thumbnail" class="card-image">
-      <div class="card-content">
-        <h3><a href="{{ project.link | relative_url }}">{{ project.title }}</a></h3>
-        <p>{{ project.summary }}</p>
-        <div class="tags">
-          {% for tag in project.tags %}
-            <span class="tag">{{ tag }}</span>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
+    {% include research_card.html research=project %}
   {% endfor %}
 </div>
+
