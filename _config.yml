@@ -281,7 +281,7 @@ defaults:
       type: research
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comment: true
   # _activities
@@ -290,7 +290,7 @@ defaults:
       type: activities
     values:
       layout: talk
-      author_profile: true
+      author_profile: false
       share: true
   # _members
   - scope:
@@ -298,7 +298,7 @@ defaults:
       type: members
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
 
 # Sass/SCSS
