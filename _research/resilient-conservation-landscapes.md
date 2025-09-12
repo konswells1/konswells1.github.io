@@ -4,7 +4,7 @@ collection: research
 permalink: /research/
 weight: 10
 excerpt: "Understanding how ecosystems can maintain biodiversity and function under increasing environmental stressors, with a focus on birds and mammals in grasslands and forests."
-image: https://www.frontiersin.org/files/Articles/1401513/fenvs-12-1401513-HTML-r1/image_m/fenvs-12-1401513-g002.jpg
+image: /images/research/BiodivOffsettingDynamics.jpg
 tags:
   - Conservation
   - Landscape Ecology
