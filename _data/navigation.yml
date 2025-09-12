@@ -20,23 +20,3 @@ main:
   url: /activities/ 
 - title: "Mission & Values"
   url: /mission/
-
-  
-#- title: "teaching"
-#  url: /teaching/ 
- # - title: "CV"
- #   url: /cv/
-  #- title: "Talks"
-  #  url: /talks/    
-
- # - title: "Portfolio"
- #   url: /portfolio/
-        
- # - title: "Blog Posts"
- #   url: /year-archive/
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  #- title: "Guide"
-  #  url: /markdown/
