@@ -393,6 +393,33 @@ research-grid {
   display: none;
 }
 
+.research-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.research-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 2rem;
+}
+
+.research-image img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.research-text {
+  flex: 1;
+}
+
+.research-text h2 {
+  margin-top: 0;
+}
 
 
 
