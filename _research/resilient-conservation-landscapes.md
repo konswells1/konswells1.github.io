@@ -2,8 +2,7 @@
 title: ""
 collection: research
 permalink: /research/
-date: 
-list: 2025-09-01
+date: 2025-09-01
 excerpt: "Understanding how ecosystems can maintain biodiversity and function under increasing environmental stressors, with a focus on birds and mammals in grasslands and forests."
 image: /images/research/BiodivOffsettingDynamics.jpg
 tags:
