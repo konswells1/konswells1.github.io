@@ -223,7 +223,7 @@ collections:
     permalink: /:collection/:path/
   research:
     output: true
-    permalink: /:collection/:path/:name/
+    permalink: /research/:name/
   publications:
     output: true
     permalink: /:collection/:path/
