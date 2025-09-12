@@ -1,9 +1,6 @@
 ---
-layout: archive
+layout: default
 title: "Research"
 permalink: /research/
-collection: research
-entries_layout: grid
-pagination: 0
 ---
 
