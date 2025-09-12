@@ -388,6 +388,11 @@ research-grid {
   border-radius: 4px;
 }
 
+/* Hide title from research markdown files */
+.page__content .research-title {
+  display: none;
+}
+
 
 
 
