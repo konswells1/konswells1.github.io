@@ -218,19 +218,22 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
+  members:
+    output: true
+    permalink: /:collection/:path/
+  research:
     output: true
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  activities:
     output: true
     permalink: /:collection/:path/
-  talks:
+  teaching:
     output: true
     permalink: /:collection/:path/
-  members:
+  mission:
     output: true
     permalink: /:collection/:path/
 
@@ -272,19 +275,19 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _research
   - scope:
       path: ""
-      type: portfolio
+      type: research
     values:
       layout: single
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _activities
   - scope:
       path: ""
-      type: talks
+      type: activities
     values:
       layout: talk
       author_profile: true
