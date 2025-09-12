@@ -1,7 +1,6 @@
 ---
 title: ""
 collection: research
-permalink: /research/
 weight: 8
 excerpt: "Exploring how pathogens spread, persist, and specialize across diverse hosts in a changing world."
 image: /images/research/BiodivOffsettingDynamics.jpg
