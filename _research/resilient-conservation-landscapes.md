@@ -2,6 +2,8 @@
 title: ""
 collection: research
 permalink: /research/
+weight: 10
+date:
 excerpt: "Understanding how ecosystems can maintain biodiversity and function under increasing environmental stressors, with a focus on birds and mammals in grasslands and forests."
 image: /images/research/BiodivOffsettingDynamics.jpg
 tags:
