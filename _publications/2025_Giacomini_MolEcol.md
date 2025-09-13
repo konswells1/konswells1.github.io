@@ -22,6 +22,15 @@ zenodo:
   - code: 15223040
     description: Raw sequencing data and analysis scripts
 
+# News & Media Coverage
+news_links:
+  - title: "Press Release"
+    url: "https://www.swansea.ac.uk/press-office/news-events/news/2025/05/invasive-rats-and-rainforest-mammals-are-sharing-gut-microbes-as-urban-areas-grow.php"
+  - title: "Phys.org coverage"
+    url: "https://phys.org/news/2025-05-invasive-rats-rainforest-mammals-gut.html"
+     
+# Additional Resources
+
 #Link in repository based on file name
 permalink: https://yourusername.github.io/publication/2025_Giacomini_MolEcol  
 
@@ -29,6 +38,7 @@ permalink: https://yourusername.github.io/publication/2025_Giacomini_MolEcol
 excerpt: "As urbanisation expands into Earth’s oldest and most biodiverse rainforests, this study investigates how invasive and native small mammals in Borneo—such as Rattus rattus and Sundamys muelleri—are sharing gut microbiomes across an urban‑rural gradient. The findings reveal that the gut microbial communities of an invasive species (black rat) more closely resemble those of an urban-adapted native species than a closely related invader, offering insights into how urbanisation shapes host–microbiome dynamics with implications for wildlife health and disease transmission."
 
 ---
+
 
 
 
