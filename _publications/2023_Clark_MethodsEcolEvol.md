@@ -28,7 +28,7 @@ zenodo: 10.5281/zenodo.6918047
 news_links:
      
 # Additional Resources
-links:
+additional_links:
   - title: "mvgam R package on cran.r-project.org"
     url: "https://cran.r-project.org/web/packages/mvgam/index.html"
   - title: "Blog post explaining package by Nick Clark"
