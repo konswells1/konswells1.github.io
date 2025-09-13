@@ -17,7 +17,7 @@ doi: 10.1038/s41559-022-01918-5
 pdf: 
 
 # Thumbnail or key figure image
-image: images/research/Provost_2023_illustration.jpg
+image: /images/research/Provost_2023_illustration.jpg
 
 # Data, Code & Software
 dryad: 
@@ -29,6 +29,7 @@ news_links:
     url: "https://phys.org/news/2022-11-beneficial-beautiful-biodiversity-meadows-pastures.html"
      
 # Additional Resources
+links:
   - title: "Biodiversity Exploratories Research Platform"
     url: "https://www.biodiversity-exploratories.de/en/"
 
