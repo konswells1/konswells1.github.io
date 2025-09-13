@@ -23,6 +23,15 @@ image: https://onlinelibrary.wiley.com/cms/asset/f62957ae-c860-42fb-ae80-c1bee9e
 dryad: 10.5061/dryad.gmsbcc2xg
 github: konswells1/Haemosporidian-abundance-occupancy-relationships
 
+# News & Media Coverage
+news_links:
+  - title: "Press Release"
+    url: "https://www.swansea.ac.uk/press-office/news-events/news/2024/10/study-reveals-how-parasites-thrive-by-balancing-specialisation-with-exploiting-diverse-species-communities.php"
+  - title: "Phys.org coverage"
+    url: "https://phys.org/news/2024-10-reveals-parasites-specialization-exploiting-diverse.html"
+     
+# Additional Resources
+
 #Link in repository based on file name
 permalink: https://yourusername.github.io/publication/2025_Wells_JBiogeogr  
 
@@ -30,6 +39,7 @@ permalink: https://yourusername.github.io/publication/2025_Wells_JBiogeogr
 excerpt: "This study examines how niche breadth, host availability, and climatic conditions shape abundance–occupancy relationships of avian blood parasites (Plasmodium, Parahaemoproteus, and Leucocytozoon) across diverse biogeographic regions. The study found strong evidence that bird diversity influences parasite infection risk, but also showed that the different parasite genera responded in distinct ways to climate and host availability. This highlights the complexity of parasite–host dynamics and suggests that a single rule is unlikely to explain the global distribution of avian blood parasites."
 
 ---
+
 
 
 
