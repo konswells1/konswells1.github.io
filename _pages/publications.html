@@ -214,6 +214,16 @@ permalink: /publications/
           </ul>
         {% endif %}
 
+        {% if publication.news_links %}
+          <h6>News & Media Coverage</h6>
+          <ul class="list-unstyled small">
+          {% for news in publication.news_links %}
+            <li><a href="{{ news.url }}" target="_blank">{{ news.title }}</a></li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+
+      
         {% if publication.links %}
           <h6>Additional Resources</h6>
           <ul class="list-unstyled small">
