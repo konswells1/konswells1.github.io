@@ -223,16 +223,14 @@ permalink: /publications/
           </ul>
         {% endif %}
 
-    {% if publication.additional_links and publication.additional_links.size > 0 %}
-        <h6>Additional Resources</h6>
-        <ul class="list-unstyled small">
-        {% for link in publication.additional_links %}
-          {% if link.url and link.title %}
-          <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
+        {% if publication.additional_links and publication.additional_links.size > 0 %}
+            <h6>Additional Resources</h6>
+            <ul class="list-unstyled small">
+            {% for additional in publication.additional_links %}
+            <li><a href="{{ additional.url }}" target="_blank">{{ additional.title }}</a></li>
+          {% endfor %}
+          </ul>
         {% endif %}
-        {% endfor %}
-        </ul>
-    {% endif %}
 
         <br>
       {% endfor %}
