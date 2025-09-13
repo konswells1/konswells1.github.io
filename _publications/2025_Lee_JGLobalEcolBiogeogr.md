@@ -23,10 +23,18 @@ image: https://onlinelibrary.wiley.com/cms/asset/55c69509-46ff-4e79-8bfc-707769e
 dryad: 10.5061/dryad.18931zd70
 github: konswells1/Feeding-patterns
 
+# News & Media Coverage
+news_links:
+  - title: "Press Release"
+    url: "https://www.swansea.ac.uk/press-office/news-events/news/2025/06/global-study-reveals-surprising-flexibility-in-mosquito-feeding-patterns-.php"
+  - title: "Phys.org coverage"
+    url: "https://phys.org/news/2025-06-global-reveals-flexibility-mosquito-patterns.html"
+
 #Link in repository based on file name
 permalink: https://yourusername.github.io/publication/2025_Lee_JGLobalEcolBiogeogr  
 
 # Short summary
 excerpt: "This global meta-analysis of over 15,600 mosquito blood meals revealed striking diversity in mosquito host selection. Culex species fed on up to 321 host species, while Aedes and Anopheles showed narrower but still notable ranges. Environmental factors such as temperature and land use were associated with shifts in feeding, highlighting potential plasticity and implications for vector-borne pathogen spillover. Despite the large dataset, predicting global feeding shifts remained uncertain, underscoring the need for more standardized diet studies."
+
 
 ---
