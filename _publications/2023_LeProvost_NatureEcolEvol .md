@@ -29,7 +29,7 @@ news_links:
     url: "https://phys.org/news/2022-11-beneficial-beautiful-biodiversity-meadows-pastures.html"
      
 # Additional Resources
-links:
+additional_links:
   - title: "Biodiversity Exploratories Research Platform"
     url: "https://www.biodiversity-exploratories.de/en/"
 
