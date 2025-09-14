@@ -1,0 +1,43 @@
+---
+title: "Distinct spread of DNA and RNA viruses among mammals amid prominent role of domestic species"
+
+collection: publications
+
+pub_date: 2020-03-01
+
+date: 2020-03-01 
+
+authors: "**Konstans Wells**, Serge Morand, Maya Wardeh, Matthew Baylis"
+
+
+journal: "Global Ecology and Biogeography"
+
+doi:  10.1111/geb.13045
+
+# PDF link (hosted PDF file)
+pdf:
+
+# Thumbnail or key figure image
+image: images/research/virus_networks.jpg
+
+# Data, Code & Software
+dryad: 10.5061/dryad.p2ngf1vmg
+github:
+
+# News & Media Coverage
+news_links:
+  - title: "Press Release"
+    url: "https://www.swansea.ac.uk/press-office/news-events/news/2020/01/new-research-shows-domestic-animals-link-virus-spread-among-humans-and-wildlife.php"
+  - title: "MedicalXpress"
+    url: "https://medicalxpress.com/news/2019-12-domestic-animals-link-virus-humans.html?src_id=alt"
+     
+# Additional Resources
+
+
+#Link in repository based on file name
+permalink: https://konswells1.github.io/publication/2020_Wells_GlobalEcolBiogeogr  
+
+# Short summary
+excerpt: "Emerging infectious diseases from mammal-to-human spillover pose a major global health threat. Using a global dataset of over 1,700 viruses and 725 mammal species, this study applied network and trait-based models to explore virus-sharing patterns. Results show that domesticated mammals play a central role in host–virus networks. Carnivores and bats share primarily RNA viruses, while ungulates share both RNA and DNA viruses. RNA viruses, in particular, show low host specificity and high cross-species transmission potential. These findings underscore the importance of domestic species and viral traits in predicting spillover risk under global change."
+
+---
