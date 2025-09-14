@@ -18,7 +18,8 @@ doi:  10.1111/geb.13045
 pdf:
 
 # Thumbnail or key figure image
-image: images/research/virus_networks.jpg
+image: /images/research/virus_networks.jpg
+
 
 # Data, Code & Software
 dryad: 10.5061/dryad.p2ngf1vmg
