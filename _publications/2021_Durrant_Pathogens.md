@@ -11,7 +11,7 @@ authors: "**Rowan Durrant**, Rodrigo Hamede, **Konstans Wells**, Miguel Lurgi"
 
 journal: "Pathogens"
 
-doi: /10.3390/pathogens10121592
+doi: 10.3390/pathogens10121592
 
 # PDF link (hosted PDF file)
 pdf: https://www.mdpi.com/2076-0817/10/12/1592/pdf?version=1639369197
