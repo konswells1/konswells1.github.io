@@ -17,7 +17,7 @@ doi: 10.3390/pathogens10121592
 pdf: https://www.mdpi.com/2076-0817/10/12/1592/pdf?version=1639369197
 
 # Thumbnail or key figure image
-image: /images/research/Rowan_Durrant_2021_disease.spread.gif
+image:
 
 # Data, Code & Software
 github: https://github.com/RowanDurrant/DFTD
