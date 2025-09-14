@@ -16,13 +16,7 @@ image: /images/research/Rowan_Durrant_2021_disease.spread.gif
 
 # Data, Code & Software
 dryad: 
-github: https://github.com/RowanDurrant/DFTD
-
-# News & Media Coverage
-news_links:
-
-# Additional Resources
-
+github:
 
 #Link in repository based on file name
 permalink: https://yourusername.github.io/publication/2021_Durrant_Pathogens  
