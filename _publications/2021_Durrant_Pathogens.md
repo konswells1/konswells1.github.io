@@ -26,10 +26,10 @@ zenodo:
 
 # News & Media Coverage
 news_links:
-     
+
 # Additional Resources
 additional_links:
-   
+
 #Link in repository based on file name
 permalink: https://konswells1.github.io/publication/2021_Durrant_Pathogens  
 
