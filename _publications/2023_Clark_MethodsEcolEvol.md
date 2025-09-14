@@ -17,7 +17,7 @@ doi: 10.1111/2041-210X.13974
 pdf: https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/2041-210X.13974
 
 # Thumbnail or key figure image
-image: /images/research/mvgam-splines_NickClark.gif
+image: /images/research/gam_dynamic_fit.gif
 
 # Data, Code & Software
 dryad: 
