@@ -9,7 +9,6 @@ date: 2021-21-08
 
 authors: "**Rowan Durrant**, Rodrigo Hamede, **Konstans Wells**, Miguel Lurgi"
 
-
 journal: "Pathogens"
 
 doi: 10.3390/pathogens10121592
