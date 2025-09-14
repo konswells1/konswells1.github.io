@@ -21,7 +21,7 @@ image: /images/research/Rowan_Durrant_2021_disease.spread.gif
 
 # Data, Code & Software
 dryad: 
-github: [RowanDurrant/DFTD](https://github.com/RowanDurrant/DFTD)
+github: 
 zenodo: 
 
 # News & Media Coverage
