@@ -5,7 +5,7 @@ collection: publications
 
 pub_date: 2021-09-07
 
-date: 2021-09-07 # Used for sorting 
+date: 2021-09-07 
 
 authors: "John R. Giles, Alison J. Peel, **Konstans Wells**, Raina K. Plowright, Hamish McCallum, Olivier Restif"
 
@@ -21,7 +21,7 @@ image: https://onlinelibrary.wiley.com/cms/asset/c6344fd3-3989-4709-9e08-0064f3a
 
 # Data, Code & Software
 dryad: 
-github: gilesjohnr/batsamp
+github: https://github.com/gilesjohnr/batsamp
 zenodo: 
 
 # News & Media Coverage
