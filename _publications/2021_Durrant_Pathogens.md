@@ -20,15 +20,7 @@ pdf: https://www.mdpi.com/2076-0817/10/12/1592/pdf?version=1639369197
 image: /images/research/Rowan_Durrant_2021_disease.spread.gif
 
 # Data, Code & Software
-dryad: 
-github: 
-zenodo: 
-
-# News & Media Coverage
-news_links:
-
-# Additional Resources
-additional_links:
+github: https://github.com/RowanDurrant/DFTD
 
 #Link in repository based on file name
 permalink: https://konswells1.github.io/publication/2021_Durrant_Pathogens  
