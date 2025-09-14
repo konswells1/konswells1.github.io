@@ -12,7 +12,7 @@ authors: "**Rowan Durrant**, Rodrigo Hamede, **Konstans Wells**, Miguel Lurgi"
 journal: "Pathogens"
 
 # Thumbnail or key figure image
-image: /images/research/Rowan_Durrant_2021_disease.spread.gif
+image: 
 
 
 ---
