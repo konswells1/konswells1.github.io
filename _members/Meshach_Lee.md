@@ -16,6 +16,6 @@ orcid:
 linkedin: meshach-lee-608608206
 scholar:
 github:
-bluesky, meshachlee.bsky.social 
+bluesky: meshachlee.bsky.social 
 description: "Meshach holds a BSc in Zoology from the University of Swansea, where his undergraduate research examined how different land-use types influence mosquito host-feeding behaviour under the supervision of Konstans Wells. Following this, he worked as a Senior Technician in the strain development team at Oxitec. He is now undertaking a PhD at the University of Glasgow titled “Assessing the vector ecology and vector-borne disease risk across an urban-rural gradient in Scotland."
 ---
