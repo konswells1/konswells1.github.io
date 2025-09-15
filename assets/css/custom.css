@@ -414,8 +414,8 @@ research-grid {
 }
 
 .research-card img {
-  height: 200px; /* Fixed height for consistency */
-  width: 100%; /* Ensure it fills its grid column */
+  height: 100%; /* Fixed height for consistency */
+  width: 100px; /* Ensure it fills its grid column */
   object-fit: cover; /* Crop image to fill container */
   border-radius: 6px; /* Optional: slightly more round than 4px */
 }
