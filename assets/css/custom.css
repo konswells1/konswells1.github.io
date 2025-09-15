@@ -407,10 +407,17 @@ research-grid {
   padding-bottom: 2rem;
 }
 
-.research-image img {
-  max-width: 250px;
-  height: auto;
-  border-radius: 4px;
+.research-card .col-md-8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centers text vertically if there's extra space */
+}
+
+.research-card img {
+  height: 200px; /* Fixed height for consistency */
+  width: 100%; /* Ensure it fills its grid column */
+  object-fit: cover; /* Crop image to fill container */
+  border-radius: 6px; /* Optional: slightly more round than 4px */
 }
 
 .research-text {
