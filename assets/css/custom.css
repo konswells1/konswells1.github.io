@@ -402,7 +402,7 @@ research-grid {
 .research-card {
   display: flex;
   align-items: flex-start;
-  gap: 1.5rem;
+  gap: 2rem;
   border-bottom: 1px solid #ddd;
   padding-bottom: 2rem;
 }
