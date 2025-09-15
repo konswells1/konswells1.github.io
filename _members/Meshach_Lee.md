@@ -1,7 +1,7 @@
 ---
 name: Meshach Lee
 pronouns: he/him
-position: MRes Student (co-supervision)
+position: Undergraduate Student
 startdate: [2017-10-01]
 enddate: [2021-06-01]
 group: Alumni
@@ -9,6 +9,8 @@ role: undergraduate_student
 email: 2802234l [at] student [dot] gla.ac.uk
 image: /images/members/profile_MeshachLee.jpg
 altimage: /images/members/altimage_MeshachLee.png
+next_position: PhD student, University of Glasgow, (with Prof. Heather Ferguson)
+next_url:
 website:
 orcid: 
 linkedin: meshach-lee-608608206
