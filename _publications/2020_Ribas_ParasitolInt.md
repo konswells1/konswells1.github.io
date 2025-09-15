@@ -18,7 +18,7 @@ doi: 10.1016/j.parint.2020.102128
 pdf:
 
 # Thumbnail or key figure image
-image:
+image: /images/research/trichuris_rat.jpg
 
 # Data, Code & Software
 dryad:
