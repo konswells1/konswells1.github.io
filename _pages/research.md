@@ -22,7 +22,7 @@ permalink: /research/
         {% for item in sorted_research %}
           <div class="research-card row mb-4">
             <div class="col-12 col-md-4">
-              <img class="img-fluid" src="{{ item.image | relative_url }}" alt="{{ item.title }}">
+              <img class="research-img" src="{{ item.image | relative_url }}" alt="{{ item.title }}">
             </div>
             <div class="col-12 col-md-8">
               <h2>{{ item.title }}</h2>
