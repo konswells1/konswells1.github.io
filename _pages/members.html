@@ -35,6 +35,7 @@ Our group welcomes people from all backgrounds who are driven by curiosity, enth
     {% assign postdocs = group_members | where: "role", "postdoc" %}
     {% assign phd_students = group_members | where: "role", "phd_student" %}
     {% assign master_students = group_members | where: "role", "master_student" %}
+    {% assign undergraduate_students = group_members | where: "role", "undergraduate_student" %}  
   
   {% else %}
     {% assign group_members = group_members | sort: "startdate" %}
