@@ -48,7 +48,6 @@ Swansea University<br>
 Wallace Building (Singleton Campus)<br>
 Swansea SA28PP<br>
 UK
-</p>
 
 <p><strong>Coordinates:</strong> 51.608306, -3.981056</p><br>
 
