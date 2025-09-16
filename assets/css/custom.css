@@ -278,7 +278,7 @@ details {
   transition: background-color 0.3s ease;
 }
 
-/* Style the summary ( for the clickable part  of snippets) */
+/* Style the summary */
 summary {
   font-weight: 600;
   cursor: pointer;
@@ -421,12 +421,15 @@ research-grid {
   justify-content: center; /* centers text vertically if there's extra space */
 }
 
-.research-card img {
-  width: 250px;
-  height: auto;
-  object-fit: cover;
-  border-radius: 5px;
-  flex-shrink: 0;
+/* image display in research cards  */
+.research-card img,
+.research-card .research-img {
+  width: 100%;        
+  height: auto;       
+  max-width: 400px;   
+  object-fit: cover;  
+  border-radius: 5px; 
+  flex-shrink: 0;     
 }
 
 .research-text {
