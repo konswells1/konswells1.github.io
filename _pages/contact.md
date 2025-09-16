@@ -23,7 +23,7 @@ permalink: /contact/
 
         <div class="card" style="flex:1; min-width:250px; padding:1rem; border:1px solid #ddd; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
           <h3><i class="fas fa-envelope"></i> Email</h3>
-          <p><a href="mailto:k.l.wells [ad] Swansea [dot] ac.uk" style="color:#00796B; text-decoration:none;">k.l.wells [ad] Swansea [dot] ac.uk</a></p>
+          <p><a href="mailto:k.l.wells [ad] swansea [dot] ac.uk" style="color:#00796B; text-decoration:none;">k.l.wells [ad] swansea [dot] ac.uk</a></p>
         </div>
 
         <div class="card" style="flex:1; min-width:250px; padding:1rem; border:1px solid #ddd; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
@@ -42,7 +42,7 @@ permalink: /contact/
 <!-- Interactive Map -->
 <h2>Our Location</h2>
 
-p><strong>Address:</strong><br>
+<p><strong>Address:</strong><br>
 Department of Biosciences<br>
 Swansea University<br>
 Wallace Building (Singleton Campus)<br>
