@@ -5,7 +5,7 @@ collection: publications
 
 pub_date: 2019-06-01
 
-date: 2019-01-01 
+date: 2019-06-01 
 
 authors: "Matthew G Betts, Christopher Wolf, Marion Pfeifer, Cristina Banks-Leite, Víctor Arroyo-Rodríguez, Danilo Bandini Ribeiro, Jos Barlow, Felix Eigenbrod, Deborah Faria, Robert J Fletcher Jr, Adam S Hadley, Joseph E Hawes, Robert D Holt, Brian Klingbeil, Urs Kormann, Luc Lens, Taal Levi, Guido F Medina-Rangel, Stephanie L Melles, Dirk Mezger, José Carlos Morante-Filho, C David L Orme, Carlos A Peres, Benjamin T Phalan, Anna Pidgeon, Hugh Possingham, William J Ripple, Eleanor M Slade, Eduardo Somarriba, Joseph A Tobias, Jason M Tylianakis, J Nicolás Urbina-Cardona, Jonathon J Valente, James I Watling, **Konstans Wells**, Oliver R Wearn, Eric Wood, Richard Young, Robert M Ewers"
 
