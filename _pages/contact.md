@@ -41,6 +41,28 @@ permalink: /contact/
 
 <!-- Interactive Map -->
 <h2>Our Location</h2>
+
+p><strong>Address:</strong><br>
+Department of Biosciences<br>
+Swansea University<br>
+Wallace Building (Singleton Campus)<br>
+Swansea SA28PP<br>
+UK
+</p>
+
+<p><strong>Coordinates:</strong> 51.608306, -3.981056</p><br>
+
+<p><strong>What3Words:</strong> 
+  <a href="https://what3words.com/oppose.hurray.survey" target="_blank" style="color:#00796B; text-decoration:underline;">
+    ///oppose.hurray.survey
+  </a>
+</p>
+
+<p><strong>Directions:</strong> Located next to the beach on Singleton Campus. 
+Visitors can reach us via Swansea City railway or bus station. 
+By car, take the Mumbles Road and follow signs to Singleton Campus. 
+Look for the main entrance near the beach.</p>
+
 <iframe
   width="100%"
   height="450"
