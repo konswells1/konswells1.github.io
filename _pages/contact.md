@@ -41,17 +41,15 @@ permalink: /contact/
 
 <!-- Interactive Map -->
 <h2>Our Location</h2>
-<div class="map-container" style="position:relative; width:100%; height:0; padding-bottom:56.25%; border-radius:8px; overflow:hidden;">
-  <iframe
-    width="100%"
-    height="100%"
-    frameborder="0"
-    scrolling="no"
-    marginheight="0"
-    marginwidth="0"
-    src="https://www.openstreetmap.org/export/embed.html?bbox=-3.985,51.606,-3.977,51.610&amp;layer=mapnik&amp;marker=51.608306,-3.981056">
-  </iframe>
-</div>
+<iframe 
+  width="100%" 
+  height="450" 
+  frameborder="0" 
+  scrolling="no" 
+  marginheight="0" 
+  marginwidth="0"
+  src="https://www.openstreetmap.org/export/embed.html?layer=mapnik&marker=51.608306,-3.981056">
+</iframe>
 
 <p style="margin-top:0.5rem;">
   <a href="https://www.openstreetmap.org/?mlat=51.608306&mlon=-3.981056#map=18/51.608306/-3.981056" target="_blank" style="color:#00796B; text-decoration:underline;">
