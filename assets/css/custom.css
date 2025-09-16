@@ -432,8 +432,8 @@ research-grid {
   flex-shrink: 0;     
 }
 
-.research-text {
-  flex: 1;
+.research-card-text {
+  padding-left: 1rem; /* space between image and text on desktop */
 }
 
 .research-text h2 {
