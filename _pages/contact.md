@@ -77,8 +77,3 @@ Look for the main entrance near the beach.</p>
     View Larger Map / Get Directions
   </a>
 </p>
-
-    </main>
-
-  </div>
-</div>
