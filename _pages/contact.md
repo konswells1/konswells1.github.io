@@ -16,7 +16,7 @@ permalink: /contact/
     <main class="col-12 col-md-10 offset-md-1 col-xl-8 offset-xl-0 page-main">
 
       <h1>Contact</h1>
-      <p>If you would like to reach us, please use the contact details below or find my office location on the interactive map.</p>
+      <p>If you would like to reach us, please use the contact details below or find our office locations on the interactive map.</p>
 
       <!-- Contact Cards -->
       <div class="contact-cards" style="display:flex; flex-wrap:wrap; gap:2rem; margin-bottom:2rem;">
@@ -45,7 +45,7 @@ permalink: /contact/
 <p><strong>Address:</strong><br>
 Department of Biosciences<br>
 Swansea University<br>
-Wallace Building (Singleton Campus)<br>
+Wallace Building and Margam Building (Singleton Campus)<br>
 Swansea SA28PP<br>
 UK
 
