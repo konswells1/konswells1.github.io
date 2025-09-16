@@ -3,9 +3,9 @@ title: "Opsin genes of select treeshrews resolve ancestral character states with
 
 collection: publications
 
-pub_date: 2021-06-21
+pub_date: 2019-06-21
 
-date: 2021-06-21 
+date: 2019-06-21 
 
 authors: "Gwen Duytschaever, Mareike C Janiak, Perry S Ong, **Konstans Wells**, Nathaniel J Dominy, Amanda D Melin"
 
