@@ -20,11 +20,11 @@ permalink: /research/
       <div class="research-list">
         {% assign sorted_research = site.research | sort: 'weight' %}
         {% for item in sorted_research %}
-          <div class="research-card row mb-4">
-            <div class="col-12 col-md-4">
+          <div class="research-card d-flex flex-column flex-md-row mb-4 align-items-start">
+            <div class="research-card-image col-12 col-md-4">
               <img class="research-img" src="{{ item.image | relative_url }}" alt="{{ item.title }}">
-            </div>
-            <div class="col-12 col-md-8">
+              </div>
+              <div class="research-card-text col-12 col-md-8 mt-3 mt-md-0 ps-md-3">
               <h2>{{ item.title }}</h2>
               <p>{{ item.excerpt }}</p>
               {{ item.content | markdownify }}
