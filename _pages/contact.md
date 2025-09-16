@@ -16,7 +16,7 @@ permalink: /contact/
     <main class="col-12 col-md-10 offset-md-1 col-xl-8 offset-xl-0 page-main">
 
       <h1>Contact</h1>
-      <p>If you would like to reach me, please use the contact details below or find my office location on the interactive map.</p>
+      <p>If you would like to reach us, please use the contact details below or find my office location on the interactive map.</p>
 
       <!-- Contact Cards -->
       <div class="contact-cards" style="display:flex; flex-wrap:wrap; gap:2rem; margin-bottom:2rem;">
@@ -39,25 +39,25 @@ permalink: /contact/
 
       </div>
 
-      <!-- Interactive Map -->
-      <h2>Our Location</h2>
-      <div class="map-container" style="position:relative; width:100%; height:0; padding-bottom:56.25%; border-radius:8px; overflow:hidden;">
-        <iframe
-          width="100%"
-          height="100%"
-          frameborder="0"
-          scrolling="no"
-          marginheight="0"
-          marginwidth="0"
-          src="https://www.openstreetmap.org/export/embed.html?bbox=-3.983056,51.606306,-3.979056,51.610306&amp;layer=mapnik&amp;marker=51.608306,-3.981056">
-        </iframe>
-      </div>
+<!-- Interactive Map -->
+<h2>Our Location</h2>
+<div class="map-container" style="position:relative; width:100%; height:0; padding-bottom:56.25%; border-radius:8px; overflow:hidden;">
+  <iframe
+    width="100%"
+    height="100%"
+    frameborder="0"
+    scrolling="no"
+    marginheight="0"
+    marginwidth="0"
+    src="https://www.openstreetmap.org/export/embed.html?bbox=-3.985,51.606,-3.977,51.610&amp;layer=mapnik&amp;marker=51.608306,-3.981056">
+  </iframe>
+</div>
 
-      <p style="margin-top:0.5rem;">
-        <a href="https://www.openstreetmap.org/?mlat=51.608306&mlon=-3.981056#map=18/51.608306/-3.981056" target="_blank" style="color:#00796B; text-decoration:underline;">
-          View Larger Map / Get Directions
-        </a>
-      </p>
+<p style="margin-top:0.5rem;">
+  <a href="https://www.openstreetmap.org/?mlat=51.608306&mlon=-3.981056#map=18/51.608306/-3.981056" target="_blank" style="color:#00796B; text-decoration:underline;">
+    View Larger Map / Get Directions
+  </a>
+</p>
 
     </main>
 
