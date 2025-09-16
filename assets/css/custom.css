@@ -185,6 +185,13 @@ body, body p, .page__content, .page__content p {
   border-radius: 5px; /* rounded corners */
 }
 
+@media (max-width: 768px) {
+  .member-photo {
+    width: 150px;
+    height: 150px;
+  }
+}
+
 /* Logo size */
 .mem-icon {
   width: 18px;
