@@ -327,7 +327,6 @@ h1, h2, h3 {
 /* First header formats */
 h1 {
   font-size: 2rem;
-  text-transform: uppercase;
   letter-spacing: 0.05em;
   color: #00796B;
   margin-bottom: 0.5em;
