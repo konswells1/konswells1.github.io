@@ -48,11 +48,11 @@ permalink: /contact/
   scrolling="no"
   marginheight="0"
   marginwidth="0"
-  src="https://www.openstreetmap.org/export/embed.html?bbox=-3.983,51.607,-3.979,51.609&layer=mapnik&marker=51.608306,-3.981056">
+  src="https://www.openstreetmap.org/export/embed.html?bbox=-3.985,51.606,-3.977,51.610&layer=mapnik&marker=51.608306,-3.981056">
 </iframe>
 
 <p style="margin-top:0.5rem;">
-  <a href="https://www.openstreetmap.org/?mlat=51.608306&mlon=-3.981056#map=18/51.608306/-3.981056" target="_blank" style="color:#00796B; text-decoration:underline;">
+  <a href="https://www.openstreetmap.org/search?query=51.608306%2C+-3.981056&zoom=18" target="_blank" style="color:#00796B; text-decoration:underline;">
     View Larger Map / Get Directions
   </a>
 </p>
