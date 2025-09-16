@@ -409,27 +409,24 @@ research-grid {
 
 .research-card {
   display: flex;
-  align-items: flex-start;
+  flex-wrap: wrap; /* stack on small screens */
   gap: 2rem;
   border-bottom: 1px solid #ddd;
   padding-bottom: 2rem;
 }
 
 .research-card .col-md-8 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* centers text vertically if there's extra space */
+  flex: 1;
 }
 
 /* image display in research cards  */
-.research-card img,
-.research-card .research-img {
-  width: 100%;        
-  height: auto;       
-  max-width: 400px;   
-  object-fit: cover;  
-  border-radius: 5px; 
-  flex-shrink: 0;     
+.research-card img {
+  width: 100%;
+  max-width: 400px; /* allow growth on large screens */
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+  flex: 0 0 auto; /* prevent shrinking */
 }
 
 .research-card-text {
