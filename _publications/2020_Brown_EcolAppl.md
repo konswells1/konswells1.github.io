@@ -5,7 +5,7 @@ collection: publications
 
 pub_date: 2020-06-01
 
-date: 2020-06-01 
+date: 2020-06-01
 
 authors: "Stuart C Brown, **Konstans Wells**, Emilie Roy‐Dufresne, Susan Campbell, Brian Cooke, Tarnya Cox, Damien A Fordham"
 
