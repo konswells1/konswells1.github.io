@@ -3,9 +3,9 @@ title: "Individual and temporal variation in pathogen load predicts long‐term 
 
 collection: publications
 
-pub_date: 2025-06-01
+pub_date: 2019-01-19
 
-date: 2025-01-01 
+date: 2019-01-19 
 
 authors: "**Konstans Wells**, Rodrigo K Hamede, Menna E Jones, Paul A Hohenlohe, Andrew Storfer, Hamish I McCallum"
 
