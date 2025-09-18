@@ -1,0 +1,40 @@
+---
+title: "The Australian National Rabbit Database: 50 yr of population monitoring of an invasive species"
+
+collection: publications
+
+pub_date: 2019-04-29
+
+date: 2019-04-29 
+
+authors: "Emilie Roy‐Dufresne, Miguel Lurgi, Stuart Brown, **Konstans Wells**, Brian Cooke, Greg Mutze, David Peacock, Phill Cassey, Dave Berman, Barry Brook, Susan Campbell, Tarnya Cox, Joanne Daly, Iain Dunk, Peter Elsworth, Don Fletcher, David Forsyth, Greg Hocking, John Kovaliski, Michael Leane, Bill Low, Malcolm Kennedy, John Matthews, Steve McPhee, Camille Mellin, Trish Mooney, Katherine Moseby, John Read, Barry Richardson, Kathryn Schneider, Eric Schwarz, Ronald Sinclair, Tanja Strive, Frank Triulcio, Peter West, Frederik Saltré, Damien Fordham"
+
+
+journal: "Ecology"
+
+doi:  "10.1002/ecy.2750"
+
+# PDF link (hosted PDF file)
+pdf: https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.1002/ecy.2750
+
+# Thumbnail or key figure image
+image
+
+# Data, Code & Software
+dryad:
+github: 
+
+# News & Media Coverage
+
+     
+# Additional Resources
+additional_links: 
+  - title: "Data access via supporting information of the online article"
+    url: "http://onlinelibrary.wiley.com/doi/10.1002/ecy"
+
+#Link in repository bason file name
+permalink: https://konswells1.github.io/publication/2019_Roy‐Dufresne_Ecology  
+
+# Short summary
+excerpt: "This dataset paper presents a database of rabbit monitoring data from Australia, a comprehensive compilation of over 50 years of georeferenced and date-stamped data on the occurrence (689,000+ records) and abundance (51,000+ records) of the European rabbit across Australia. Developed to address the lack of a unified repository, the database integrates historical and contemporary survey data with environmental and climatic variables, enabling fine-scale analyses of population dynamics and distributional trends. As one of the most ecologically and economically damaging invasive species in Australia, the European rabbit’s monitoring through this open-access resource provides critical insights for managing its impact on biodiversity and agriculture, while also supporting broader research on invasive species ecology. For accessing the data set, please seed e Supporting Information in the online version of this article at http://onlinelibrary.wiley.com/doi/10.1002/ecy."
+---
