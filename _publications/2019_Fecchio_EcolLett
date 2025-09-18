@@ -1,0 +1,41 @@
+---
+title: "Climate variation influences host specificity in avian malaria parasites"
+
+collection: publications
+
+pub_date: 2019-01-13
+
+date: 2019-01-13 
+
+authors: "Alan Fecchio, **Konstans Wells**, Jeffrey A. Bell, Vasyl V. Tkach, Holly L. Lutz, Jason D. Weckstein, Sonya M. Clegg, Nicholas J. Clark"
+
+
+journal: "Ecology Letters"
+
+doi: "10.1111/ele.13215"
+
+# PDF link (hosted PDF file)
+pdf: https://cronfa.swan.ac.uk/Record/cronfa46171/Download/0046171-30112018154102.pdf
+
+# Thumbnail or key figure image
+image: 
+
+# Data, Code & Software
+dryad: 
+github:
+figshare: 10.6084/m9.figshare.7464617.v1
+
+# News & Media Coverage
+news_links:
+  - title: "ScienceDaily"
+    url: "https://www.sciencedaily.com/releases/2019/05/190501114619.html"
+     
+# Additional Resources
+
+
+#Link in repository based on file name
+permalink: https://konswells1.github.io/publication/2019_Fecchio_EcolLett  
+
+# Short summary
+excerpt: "This study reveals that host specificity in avian malaria parasites varies with regional climate, rather than being fixed. Using a hierarchical modeling approach and host-parasite association data, the work shows that although parasites typically infect phylogenetically related bird species, the degree of specialization increases in areas with more pronounced rainfall seasonality and wetter dry seasons. These findings suggest that recognising the environmental dependency of parasite specialisation can provide useful leverage for improving predictions of infection risk in response to global climate change"
+---
