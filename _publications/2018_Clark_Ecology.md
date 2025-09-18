@@ -29,7 +29,6 @@ zenodo: 10.5281/zenodo.1199673
 # News & Media Coverage
 news_links:
   - title: "ScienceDaily"
-    url: "https://www.sciencedaily.com/releases/2019/05/190501114619.html"
      
 # Additional Resources
 additional_links:
