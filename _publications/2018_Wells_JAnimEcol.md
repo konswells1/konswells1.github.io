@@ -18,7 +18,7 @@ doi: "10.1111/1365-2656.12871"
 pdf: https://cronfa.swan.ac.uk/Record/cronfa45068/Download/0045068-29112018123319.pdf
 
 # Thumbnail or key figure image
-image: 
+image: /reearch/image/rabbit_dynamiccaptrecapt.jpg
 
 # Data, Code & Software
 dryad: 10.5061/dryad.3hd6sb6 
