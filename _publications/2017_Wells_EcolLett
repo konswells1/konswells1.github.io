@@ -1,0 +1,46 @@
+---
+title: "Infection of the fittest: devil facial tumour disease has greatest effect on individuals with highest reproductive output"
+
+collection: publications
+
+pub_date: 2017-05-10
+
+date: 2017-05-10 
+
+authors: "**Konstans Wells**, Rodrigo K. Hamede, Douglas H. Kerlin, Andrew Storfer, Paul A. Hohenlohe, Menna E. Jones, Hamish I. McCallum"
+
+
+journal: "Ecology Letters"
+
+doi: "10.1111/ele.12776"
+
+# PDF link (hosted PDF file)
+pdf: https://cronfa.swan.ac.uk/Record/cronfa45075/Download/0045075-29112018124447.pdf
+
+# Thumbnail or key figure image
+image: /images/research/ecoepi_dynamics.jpg
+
+# Data, Code & Software
+dryad: 0.5061/dryad.72n14
+github:
+figshare:
+
+# News & Media Coverage
+news_links:
+  - title: "Press Release"
+    url: "https://news.griffith.edu.au/2017/05/11/not-survival-of-the-fittest-for-tassie-devils/"
+  - title: "Phys.org coverage"
+    url: "https://phys.org/news/2017-05-survival-fittest-tassie-devils.html"
+  - title: "The Conversation: Survival of the fittest? Perhaps not if you’re a Tasmanian devil"
+    url: "https://theconversation.com/survival-of-the-fittest-perhaps-not-if-youre-a-tasmanian-devil-76402"
+ 
+# Additional Resources
+
+
+#Link in repository based on file name
+permalink: https://konswells1.github.io/publication/2017_Wells_EcolLett  
+
+# Short summary
+excerpt: ""
+---
+
