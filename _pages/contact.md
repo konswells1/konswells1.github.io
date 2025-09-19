@@ -52,7 +52,7 @@ UK
 <p><strong>Coordinates:</strong> 51.608306, -3.981056</p><br>
 
 
-<p>Konstans' office: Margam Building, office 109.</p><br>
+<p>Konstans' office: Margam Building, office 119.</p><br>
 
 <p><strong>What3Words:</strong> 
   <a href="https://what3words.com/oppose.hurray.survey" target="_blank" style="color:#00796B; text-decoration:underline;">
