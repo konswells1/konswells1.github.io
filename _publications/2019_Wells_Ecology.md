@@ -19,7 +19,8 @@ biorxiv: 10.1101/392324v1
 pdf: https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.1002/ecy.2613
 
 # Thumbnail or key figure image
-image: https://esajournals.onlinelibrary.wiley.com/cms/asset/c7d4c14f-bd1e-47b7-9b77-4691170218b7/ecy2613-fig-0003-m.png
+image: /images/research/dftd_longterm_scenarios.jpg
+##https://esajournals.onlinelibrary.wiley.com/cms/asset/c7d4c14f-bd1e-47b7-9b77-4691170218b7/ecy2613-fig-0003-m.png
 
 # Data, Code & Software
 dryad:
