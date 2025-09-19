@@ -18,7 +18,7 @@ doi: "10.1002/ecy.2221"
 pdf: 
 
 # Thumbnail or key figure image
-image: 
+image: /images/research/mrfcov.jpg
 
 # Data, Code & Software
 dryad: 
