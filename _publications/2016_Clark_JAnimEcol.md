@@ -18,7 +18,7 @@ doi: "10.1111/1365-2656.12578"
 pdf: https://onlinelibrary.wiley.com/doi/epdf/10.1111/ddi.12661
 
 # Thumbnail or key figure image
-image: https://onlinelibrary.wiley.com/cms/asset/947d3fd3-ca09-401d-92eb-b861081dd866/ddi12661-fig-0002-m.png
+image:
 
 # Data, Code & Software
 dryad: 10.5061/dryad.pp6k4 
