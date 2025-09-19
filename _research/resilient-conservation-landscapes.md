@@ -3,7 +3,7 @@ title: "Resilient Conservation Landscapes"
 collection: research
 weight: 5
 excerpt: "Understanding how ecosystems can maintain biodiversity and function under increasing environmental stressors, with a focus on birds and mammals in grasslands and forests."
-image: /images/research/BiodivOffsettingDynamics.jpg
+image: /images/research/landscape_multi.timeseries.jpg    ##/images/research/BiodivOffsettingDynamics.jpg
 ---
 
 
