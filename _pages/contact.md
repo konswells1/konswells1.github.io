@@ -51,6 +51,9 @@ UK
 
 <p><strong>Coordinates:</strong> 51.608306, -3.981056</p><br>
 
+
+<p>Konstans' office: Margam Building, office 109.</p><br>
+
 <p><strong>What3Words:</strong> 
   <a href="https://what3words.com/oppose.hurray.survey" target="_blank" style="color:#00796B; text-decoration:underline;">
     ///oppose.hurray.survey
@@ -60,7 +63,7 @@ UK
 <p><strong>Directions:</strong> Located next to the beach on Singleton Campus. 
 Visitors can reach us via Swansea City railway or bus station. 
 By car, take the Mumbles Road and follow signs to Singleton Campus. 
-Look for the main entrance near the beach.</p>
+Look for the main entrance righthandside and opposite the beach. Parking options outside the Campus near our offices include [Singleton Boating Lake Car Park](https://what3words.com/shape.giant.sobs). </p>
 
 <iframe
   width="100%"
