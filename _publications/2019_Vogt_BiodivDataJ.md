@@ -18,7 +18,7 @@ doi: 10.3897/BDJ.7.e36387
 pdf: https://bdj.pensoft.net/article/36387/download/pdf/
 
 # Thumbnail or key figure image
-image:
+image: /images/research/grassland_AlbExploratory_2008.JPG
 
 # Data, Code & Software
 dryad: 
