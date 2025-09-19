@@ -3,7 +3,7 @@ title: "Pathogens in a Connected World"
 collection: research
 weight: 8
 excerpt: "Exploring how pathogens spread, persist, and specialize across diverse hosts in a changing world."
-image: /images/research/virus_networks.jpg
+image: /images/research/connected_world_virus.networks.jpg      ##/images/research/virus_networks.jpg
 ---
 
 
