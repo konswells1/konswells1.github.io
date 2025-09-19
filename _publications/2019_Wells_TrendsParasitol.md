@@ -3,9 +3,9 @@ title: "Host specificity in variable environments"
 
 collection: publications
 
-pub_date: 2025-06-01
+pub_date: 2019-06-06
 
-date: 2025-01-01 
+date: 2019-06-06 
 
 authors: "**Konstans Wells**, Nicholas J Clark"
 
@@ -18,7 +18,7 @@ doi: 10.1016/j.pt.2019.04.001
 pdf: https://cronfa.swan.ac.uk/Record/cronfa49872/Download/0049872-03042019084826.pdf
 
 # Thumbnail or key figure image
-image:
+image: /images/research/host_specificity_2019.jpg
 
 # Data, Code & Software
 dryad:
