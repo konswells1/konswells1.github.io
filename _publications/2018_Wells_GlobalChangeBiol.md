@@ -18,7 +18,7 @@ doi: "10.1111/gcb.14064"
 pdf: https://cronfa.swan.ac.uk/Record/cronfa45072/Download/0045072-29112018124008.pdf
 
 # Thumbnail or key figure image
-image: 
+image: /images/research/global_helminths.png
 
 # Data, Code & Software
 dryad: 
