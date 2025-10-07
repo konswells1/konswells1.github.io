@@ -3,7 +3,7 @@ name: Caitlin Moffatt
 pronouns: she/her
 position: PhD Student
 startdate: [2025-10-01]
-enddate: []
+enddate:
 email: 2538860 [at] swansea [dot] ac.uk
 image: /images/members/profile_CaitlinMoffatt.jpg
 website:
