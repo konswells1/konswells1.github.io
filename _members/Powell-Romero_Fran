@@ -3,17 +3,19 @@ name: Francisca Powell-Romero, Ph.D.
 pronouns: she/her
 position: PhD Student (co-supervision)
 startdate: [2021-10-01]
-enddate: [2021-06-01]
+enddate: [2025-06-01]
 group: Alumni
 role: phd_student
 next_position: Postdoctoral Research Fellow at CSIRO
-next_url:
-email: 
-image: /images/members/profile_Francisca_PowellRomero.jpg
+next_url: https://people.csiro.au/p/f/francisca-powell
+email: Francisca.Powell [at] csiro [dot] au
+image: /images/members/profile_Francisca_PowellRomero.png
 website:
 orcid: 0000-0001-9800-3100
 linkedin: francisca-powell-romero-090ab8179
 scholar: NvlK3qYAAAAJ&hl
-github: 
-description: "Francisca conducted her PhD studies at The University of Queensland, working on infectious disease modelling and the use of co-infection data for predicting disease risk in humans and animals. Her principal advisor was [Dr Nicholas Clark](https://about.uq.edu.au/experts/15140), and her associate advisors were [Prof. Ricardo Soares Magalhães](https://about.uq.edu.au/experts/1991), [Dr Nicholas Fountain-Jones](https://discover.utas.edu.au/Nick.FountainJones) and Konstans. Fran has broad interests in One Health research and infectious disease epidemiology and control, and has a multidisciplinary academic background in biomedical science, sociology, and French. "
+github: franciscapowell
+description: "Francisca completed her PhD studies in 2025 at the University of Queensland under the supervision of [Dr Nicholas Clark](https://about.uq.edu.au/experts/15140), [Professor Ricardo Soares Magalhães](https://about.uq.edu.au/experts/1991), [Dr Nicholas Fountain-Jones](https://discover.utas.edu.au/Nick.FountainJones) and Konstans, where she explored the use multivariate modelling for predicting disease risk using co-infection data. Prior to her PhD, she obtained a BSc in biomedical science and a BA in sociology and French in 2018 and was awarded Honours Class I for her project on spatiotemporal modelling of Q fever in Queensland in 2020.
+Fran is currently working as a postdoctoral research fellow at the Commonwealth Scientific and Industrial Research Organisation (CSIRO), where she is developing mathematical and computational models to optimise mosquito control strategies that account for local priorities. As part of this work, she is engaging directly with Indigenous stakeholders to ensure that community needs are captured within the modelling framework in a way that is both culturally informed and locally relevant. 
+When she’s not working, Fran enjoys travelling, reading and spending time with her cocker spaniel, Arthur.”
 ---
