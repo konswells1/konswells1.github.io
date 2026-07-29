@@ -667,6 +667,28 @@ main.content > section > h2 {
   }
 }
 
+.hero h3 {
+  max-width: 46rem;
+  margin: 0 0 6rem;
+
+  color: #d8e8e2;
+  font-size: clamp(1.1rem, 1.8vw, 1.45rem);
+  font-weight: 500;
+  font-style: italic;  
+  line-height: 1.45;
+  letter-spacing: 0.02em;
+
+  text-shadow: 0 1px 5px rgba(0,0,0,.20);
+}
+
+.hero h3 em {
+  font-style: italic;
+  color: inherit;
+}
+
+
+
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
